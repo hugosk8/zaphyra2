@@ -2,12 +2,12 @@
     <div class="banner-carousel thm__owl-carousel owl-theme owl-carousel" data-options='{"loop": true, "items": 1, "margin": 0, "dots": false, "nav": true, "animateOut": "fadeOut", "animateIn": "fadeIn", "active": true, "smartSpeed": 1000, "autoplay": true, "autoplayTimeout": 6000, "autoplayHoverPause": false}'>
         <!-- Slide Item -->
         <div class="slide-item">
-            <div class="image-layer lazy-image" style="background-image: url('assets/images/main-slider/banner-2-1.jpg');"></div>
+            <div class="image-layer lazy-image" style="background-image: url('<?= URL ?>img/soins-banner.jpeg');"></div>
             <div class="container">
                 <div class="content-box text-center">
-                    <h3>Soins énergétiques</h3>
+                    <h3 class="text-shadow">Soins énergétiques</h3>
                     <h2>Retrouvez l’énergie qui vous manque avec des soins énergétiques dans le Nord</h2>
-                    <h3 class="span">Fatigue physique et épuisement mental sont des maux contemporains qui, bien souvent, ne sont pas liés à des dysfonctionnements organiques. Pas de maladie, juste un état d’abattement ou de vague mal-être difficile à cerner. On reconnaît dans ces symptômes étranges une autre manière du corps à s’exprimer.</h3>
+                    <span class="span text-white text-shadow">Fatigue physique et épuisement mental sont des maux contemporains qui, bien souvent, ne sont pas liés à des dysfonctionnements organiques. Pas de maladie, juste un état d’abattement ou de vague mal-être difficile à cerner. On reconnaît dans ces symptômes étranges une autre manière du corps à s’exprimer.</span>
                 </div>
             </div>
         </div>

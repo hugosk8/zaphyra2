@@ -17,10 +17,10 @@
                                 </div>
                                 <br>
                                 <p id="text-prestations" class="mb-0"><b><?= $tarif ?></b></p>
-                                <p id="text-prestations"><?= $description ?></p>
                                 <div class="img-container d-flex justify-content-center">
                                     <img src="<?= URL ?>img<?= $image ?>" class="img-fluid" alt="">
                                 </div>
+                                <p id="text-prestations"><?= $description ?></p>
                             </div><!-- /.blog-details__main -->
                         </div><!-- /.col-lg-8 -->
 

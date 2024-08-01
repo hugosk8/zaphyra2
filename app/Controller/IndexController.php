@@ -411,6 +411,11 @@ class IndexController extends AppController
         $this->render('front/formations_et_ateliers');
     }
 
+    public function developpement_personnel()
+    {
+        $this->render('front/developpement_personnel');
+    }
+
     public function download()
     {
         new Download($this->article, $_GET['id'], 'image3', 'assets/img/');

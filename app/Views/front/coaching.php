@@ -2,12 +2,12 @@
     <div class="banner-carousel thm__owl-carousel owl-theme owl-carousel" data-options='{"loop": true, "items": 1, "margin": 0, "dots": false, "nav": true, "animateOut": "fadeOut", "animateIn": "fadeIn", "active": true, "smartSpeed": 1000, "autoplay": true, "autoplayTimeout": 6000, "autoplayHoverPause": false}'>
         <!-- Slide Item -->
         <div class="slide-item">
-            <div class="image-layer lazy-image" style="background-image: url('assets/images/main-slider/banner-2-1.jpg');"></div>
+            <div class="image-layer lazy-image" style="background-image: url('<?= URL ?>img/coaching-banner.webp');"></div>
             <div class="container">
                 <div class="content-box text-center">
                     <h3>Coaching de vie</h3>
                     <h2>Faites-vous accompagner dans votre développement personnel</h2>
-                    <h3 class="span">Nous traversons tous des périodes difficiles dans notre existence. Je ne parle pas des catastrophes qui peuvent bouleverser une vie, mais de ces moments pendant lesquels il semble que l’on n’avance plus, que l’on ait perdu le but et le sens de sa vie. Le coaching personnel que je conduis est fait pour vous aider à traverser ces épisodes de grand doute et à retrouver votre voie.</h3>
+                    <span class="span text-white text-shadow">Nous traversons tous des périodes difficiles dans notre existence. Je ne parle pas des catastrophes qui peuvent bouleverser une vie, mais de ces moments pendant lesquels il semble que l’on n’avance plus, que l’on ait perdu le but et le sens de sa vie. Le coaching personnel que je conduis est fait pour vous aider à traverser ces épisodes de grand doute et à retrouver votre voie.</span>
                 </div>
             </div>
         </div>

@@ -121,7 +121,7 @@
                                     <p>Avec mon équipe, je vous accompagne dans votre cheminement personnel et vous aide à trouver ou retrouver l’espoir et l’équilibre. Comment lâcher prise et trouver vos propres solutions pour résoudre vos problèmes ? En puisant en vous-mêmes les ressources que vous possédez. De séance en séance, avec votre coach de vie vous parviendrez à franchir les étapes qui vous mèneront à cette libération.</p>
                                 </div><!-- /.event-one__content -->
                                 <div class="event-one__btn-block">
-                                    <a href="<?= URL ?>coaching_de_vie" class="thm-btn event-one__btn">coaching</a>
+                                    <a href="<?= URL ?>coaching" class="thm-btn event-one__btn">coaching</a>
                                 </div><!-- /.event-one__btn-block -->
                             </div><!-- /.event-one__single -->
                         </div><!-- /.col-lg-12 -->
@@ -139,7 +139,7 @@
                                     <p>Retrouver un dynamisme qui s’étiole sous l’effet du stress et de la fatigue quotidienne, remettre en mouvement l’énergie qui vous habite : les séances proposées chez Zaphyra peuvent être considérées comme des moments de remise en forme ponctuels. Le soin aurique aide à déverrouiller des émotions entravées, le soin reiki vous apporte une détente et une relaxation tout en travaillant à rétablir le flux harmonieux d’énergie en vous.</p>
                                 </div><!-- /.event-one__content -->
                                 <div class="event-one__btn-block">
-                                    <a href="<?= URL ?>perception_energetique" class="thm-btn event-one__btn">Soins énergétiques</a>
+                                    <a href="<?= URL ?>soins_energetiques" class="thm-btn event-one__btn">Soins énergétiques</a>
                                 </div><!-- /.event-one__btn-block -->
                             </div><!-- /.event-one__single -->
                         </div><!-- /.col-lg-12 -->
@@ -161,7 +161,7 @@
                                     </p>
                                 </div><!-- /.event-one__content -->
                                 <div class="event-one__btn-block">
-                                    <a href="<?= URL ?>initiation_au_reiki" class="thm-btn event-one__btn">Bien-être</a>
+                                    <a href="<?= URL ?>formations_et_ateliers" class="thm-btn event-one__btn">Bien-être</a>
                                 </div><!-- /.event-one__btn-block -->
                             </div><!-- /.event-one__single -->
                         </div><!-- /.col-lg-12 -->
@@ -183,7 +183,7 @@
                                     </p>
                                 </div><!-- /.event-one__content -->
                                 <div class="event-one__btn-block">
-                                    <a href="<?= URL ?>decouverte_de_soi" class="thm-btn event-one__btn">développement personnel</a>
+                                    <a href="<?= URL ?>developpement_personnel" class="thm-btn event-one__btn">développement personnel</a>
                                 </div><!-- /.event-one__btn-block -->
                             </div><!-- /.event-one__single -->
                         </div><!-- /.col-lg-12 -->

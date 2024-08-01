@@ -2,13 +2,12 @@
     <div class="banner-carousel thm__owl-carousel owl-theme owl-carousel" data-options='{"loop": true, "items": 1, "margin": 0, "dots": false, "nav": true, "animateOut": "fadeOut", "animateIn": "fadeIn", "active": true, "smartSpeed": 1000, "autoplay": true, "autoplayTimeout": 6000, "autoplayHoverPause": false}'>
         <!-- Slide Item -->
         <div class="slide-item">
-            <div class="image-layer lazy-image" style="background-image: url('assets/images/main-slider/banner-2-1.jpg');"></div>
+            <div class="image-layer lazy-image" style="background-image: url('<?= URL ?>img/atelier-banner.jpg');"></div>
             <div class="container">
                 <div class="content-box text-center">
                     <h3>Formations et ateliers</h3>
-                    <h2>Devenez expert de votre bien-être en suivant nos formations et ateliers lillois</h2>
-                    <h3 class="span">
-                    Suivre des stages au centre Zaphyra, c’est disposer d’outils et de techniques pour travailler au quotidien sur votre énergie et sur votre mental ; c’est se sentir libre et de gérer son corps et ses émotions.</h3>
+                    <h2 class="text-shadow">Devenez expert de votre bien-être en suivant nos formations et ateliers lillois</h2>
+                    <span class="span text-white text-shadow">Suivre des stages au centre Zaphyra, c’est disposer d’outils et de techniques pour travailler au quotidien sur votre énergie et sur votre mental ; c’est se sentir libre et de gérer son corps et ses émotions.</span>
                 </div>
             </div>
         </div>
