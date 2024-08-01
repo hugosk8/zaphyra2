@@ -108,19 +108,45 @@
                         <ul class="main-nav__navigation-box">
                             <li class="">
                                 <a href="<?= URL ?>index">Accueil</a>
-
                             </li>
-                            <li class="">
+                            <li class="dropdown">
                                 <a href="<?= URL ?>prestations">Nos prestations</a>
-
+                                <ul>
+                                    <li><a href="<?= URL ?>prestations">Toutes les prestations</a></li>
+                                    <li class="dropdown">
+                                        <span>Consultations individuelles</span>
+                                        <ul>
+                                            <li><a href="<?= URL ?>soin_aurique">Le soin aurique</a></li>
+                                            <li><a href="<?= URL ?>coaching_de_vie">Le coaching de vie</a></li>
+                                            <li><a href="<?= URL ?>soin_reiki">Le soin réiki</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <span>Stages de formation</span>
+                                        <ul>
+                                            <li><a href="<?= URL ?>initiation_au_reiki">Initiation au réiki</a></li>
+                                            <li><a href="<?= URL ?>intuition_et_symbolique_par_le_tarot">Intuition et symbolique par le tarot</a></li>
+                                            <li><a href="<?= URL ?>radiesthesie">Radiesthésie</a></li>
+                                            <li><a href="<?= URL ?>lithotherapie">Lithothérapie</a></li>
+                                            <li><a href="<?= URL ?>perception_energetique">Perceptions énergétiques</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <span>Stages de développement personnel</span>
+                                        <ul>
+                                            <li><a href="<?= URL ?>decouverte_de_soi">La découverte de soi</a></li>
+                                            <li><a href="<?= URL ?>chemin_du_chevalier">Le chemin du Chevalier</a></li>
+                                            <li><a href="<?= URL ?>voie_du_pelerin">La voie du Pèlerin</a></li>
+                                            <li><a href="<?= URL ?>voie_des_sens">La voie des Sens</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
                             </li>
                             <li class="">
                                 <a href="<?= URL ?>evenements">Évènements</a>
-
                             </li>
                             <li class="">
                                 <a href="<?= URL ?>blog">Blog</a>
-
                             </li>
                             <li class="dropdown">
                                 <a>Ressources</a>
@@ -274,7 +300,7 @@
                     <a href="https://www.0001.fr" target="blank">0001.fr </a>
                     <a href="https://www.0001.fr" id="footer2020" target="blank"> © 2020</a>
                 <div class="side-menu__social">
-                    <a href="https://www.facebook.com/zaphyra.lille" target="blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.facebook.com/zaphyra.lille" target="blank"><i class="fab fa-facebook"></i></a>
                 </div>
             </div><!-- /.side-menu__block-inner -->
         </div><!-- /.side-menu__block -->

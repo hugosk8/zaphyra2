@@ -135,7 +135,7 @@ class IndexController extends AppController
         $this->render('front/single_prestation', $variables);
     }
 
-    public function decouverte_de_sois() {
+    public function decouverte_de_soi() {
         $title = "La découverte de soi";
         $tarif = "- Découverte de soi 1 jour : 160€";
         $description = '
@@ -393,10 +393,22 @@ class IndexController extends AppController
         $this->render('front/single_prestation', $variables);
     }
 
+    public function coaching() {
+        $this->render('front/coaching');
+    }
+
+    public function soins_energetiques() {
+        $this->render('front/soins_energetiques');
+    }
+
     public function contact()
     {
         $this->render('front/contact');
-        unset($_SESSION['MailStatus']);
+    }
+
+    public function formations_et_ateliers()
+    {
+        $this->render('front/formations_et_ateliers');
     }
 
     public function download()

@@ -86,50 +86,131 @@
 
             <!-- ANCIENNEMENT class=about-one -->
 
-            <section class="featured-collection" id="featured-collection-fredo">
-                <div class="container" id="container-fred">
-                    <div class="row" id="row-fredo">
-                        <div class="col-lg-6" id="col-fredo">
-                            <div class="featured-collection__left">
-                                <div class="featured-collection__image">
-                                    <img src="assets/zaphyra/fredo.webp" alt="Fred" id="divImgFredo">
-                                </div><!-- /.featured-collection__image -->
-                                <p></p>
-                                <!--<a href="collection-grid.html" class="thm-btn featured-collection__btn">Explore Collection</a>-->
-                                <!-- /.thm-btn featured-collection__btn -->
-                            </div><!-- /.featured-collection__left -->
-                        </div><!-- /.col-lg-6 -->
-                        <div class="col-lg-6" id="col-fredo2">
-                            <div class="featured-collection__right">
+            <section class="event-one event-one__event-page-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="event-one__single">
+                                <div class="event-one__image">
+                                    <div class="event-one__image-box">
+                                        <div class="event-one__image-inner">
+                                            <img src="<?= URL ?>img/squared/event1-1.jpg" alt="">
+                                        </div><!-- /.event-one__image-inner -->
+                                    </div><!-- /.event-one__image-box -->
+                                </div><!-- /.event-one__image -->
+                                <div class="event-one__content">
+                                    <h3><a href="event-details.html">Zaphyra, votre centre de formation et de bien-être à Lille</a></h3>
+                                    <p>Je vous invite chez Zaphyra à retrouver votre « moi » pour vous libérer de vos blocages. Ici vous découvrirez de nombreuses techniques de développement personnel et de ressourcement empruntées aux pratiques ancestrales venues d’Asie. Elles font plus que vous soulager : elles vous remettent dans un chemin de de résilience.</p>
+                                </div><!-- /.event-one__content -->
+                                <div class="event-one__btn-block">
+                                    <a href="<?= URL ?>prestations" class="thm-btn event-one__btn">Nos prestations</a>
+                                </div><!-- /.event-one__btn-block -->
+                            </div><!-- /.event-one__single -->
+                        </div><!-- /.col-lg-12 -->
+                        <div class="col-lg-12">
+                            <div class="event-one__single">
+                                <div class="event-one__image">
+                                    <div class="event-one__image-box">
+                                        <div class="event-one__image-inner">
+                                            <img src="<?= URL ?>img/squared/event1-2.jpg" alt="">
+                                        </div><!-- /.event-one__image-inner -->
+                                    </div><!-- /.event-one__image-box -->
+                                </div><!-- /.event-one__image -->
+                                <div class="event-one__content">
+                                    <h3><a href="event-details.html">Des sessions de coaching pour retrouver l’équilibre dans votre vie</a></h3>
+                                    <p>Avec mon équipe, je vous accompagne dans votre cheminement personnel et vous aide à trouver ou retrouver l’espoir et l’équilibre. Comment lâcher prise et trouver vos propres solutions pour résoudre vos problèmes ? En puisant en vous-mêmes les ressources que vous possédez. De séance en séance, avec votre coach de vie vous parviendrez à franchir les étapes qui vous mèneront à cette libération.</p>
+                                </div><!-- /.event-one__content -->
+                                <div class="event-one__btn-block">
+                                    <a href="<?= URL ?>coaching_de_vie" class="thm-btn event-one__btn">coaching</a>
+                                </div><!-- /.event-one__btn-block -->
+                            </div><!-- /.event-one__single -->
+                        </div><!-- /.col-lg-12 -->
+                        <div class="col-lg-12">
+                            <div class="event-one__single">
+                                <div class="event-one__image">
+                                    <div class="event-one__image-box">
+                                        <div class="event-one__image-inner">
+                                            <img src="<?= URL ?>img/squared/event1-3.jpg" alt="">
+                                        </div><!-- /.event-one__image-inner -->
+                                    </div><!-- /.event-one__image-box -->
+                                </div><!-- /.event-one__image -->
+                                <div class="event-one__content">
+                                    <h3><a href="event-details.html">Dynamisez votre quotidien avec nos soins énergétique</a></h3>
+                                    <p>Retrouver un dynamisme qui s’étiole sous l’effet du stress et de la fatigue quotidienne, remettre en mouvement l’énergie qui vous habite : les séances proposées chez Zaphyra peuvent être considérées comme des moments de remise en forme ponctuels. Le soin aurique aide à déverrouiller des émotions entravées, le soin reiki vous apporte une détente et une relaxation tout en travaillant à rétablir le flux harmonieux d’énergie en vous.</p>
+                                </div><!-- /.event-one__content -->
+                                <div class="event-one__btn-block">
+                                    <a href="<?= URL ?>perception_energetique" class="thm-btn event-one__btn">Soins énergétiques</a>
+                                </div><!-- /.event-one__btn-block -->
+                            </div><!-- /.event-one__single -->
+                        </div><!-- /.col-lg-12 -->
+                        <div class="col-lg-12">
+                            <div class="event-one__single">
+                                <div class="event-one__image">
+                                    <div class="event-one__image-box">
+                                        <div class="event-one__image-inner">
+                                            <img src="<?= URL ?>img/squared/event1-4.jpg" alt="">
+                                        </div><!-- /.event-one__image-inner -->
+                                    </div><!-- /.event-one__image-box -->
+                                </div><!-- /.event-one__image -->
+                                <div class="event-one__content">
+                                    <h3><a href="event-details.html">Bien-être : nos formations et ateliers</a></h3>
+                                    <p>
+                                        Lorsqu’on cherche à se sentir mieux dans son corps et dans sa vie, il vient un moment où l’on souhaite maîtriser soi-même les techniques qui mènent au bien-être. C’est pourquoi Zaphyra propose des ateliers au cours desquels vous apprendrez les bases de ces disciplines. 
+                                        <br><br>
+                                        De l’initiation au Reiki aux formations en lithothérapie, le soin par l’énergie des pierres, de la radiesthésie (l’art du pendule) et aux véhicules de la connaissance intérieure comme la numérologie ou le tarot, Zaphyra déploie des sessions complètes en immersion.
+                                    </p>
+                                </div><!-- /.event-one__content -->
+                                <div class="event-one__btn-block">
+                                    <a href="<?= URL ?>initiation_au_reiki" class="thm-btn event-one__btn">Bien-être</a>
+                                </div><!-- /.event-one__btn-block -->
+                            </div><!-- /.event-one__single -->
+                        </div><!-- /.col-lg-12 -->
+                        <div class="col-lg-12">
+                            <div class="event-one__single">
+                                <div class="event-one__image">
+                                    <div class="event-one__image-box">
+                                        <div class="event-one__image-inner">
+                                            <img src="<?= URL ?>img/squared/event1-5.jpg" alt="">
+                                        </div><!-- /.event-one__image-inner -->
+                                    </div><!-- /.event-one__image-box -->
+                                </div><!-- /.event-one__image -->
+                                <div class="event-one__content">
+                                    <h3><a href="event-details.html">Aller plus loin dans le développement personnel</a></h3>
+                                    <p>
+                                        Connaissez-vous l’art thérapie ? C’est un moyen incroyablement efficace pour aller à la rencontre de soi-même et découvrir ce qui nous limite. D’autres pratiques permettent de faire sortir de leur gangue les forces cachées dont vous disposez ou de briser le cycle infernal des situations qui se répètent dans votre existence.
+                                        <br><br>
+                                        Enfin, retrouvez la pleine possession de vos sens dans une démarche holistique, pour trouver la plénitude. Les journées de développement personnel vous transformeront durablement.
+                                    </p>
+                                </div><!-- /.event-one__content -->
+                                <div class="event-one__btn-block">
+                                    <a href="<?= URL ?>decouverte_de_soi" class="thm-btn event-one__btn">développement personnel</a>
+                                </div><!-- /.event-one__btn-block -->
+                            </div><!-- /.event-one__single -->
+                        </div><!-- /.col-lg-12 -->
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </section><!-- /.event-one -->
+
+            <section class="about-four">
+                <div class="container">
+                    <div class="about-four__image wow fadeInRight" data-wow-duration="1500ms">
+                        <img src="<?= URL ?>assets/zaphyra/fredo.webp" alt="">
+                    </div><!-- /.about-four__image -->
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="about-four__content">
                                 <div class="block-title">
                                     <p>Fred</p>
-                                    <!--<h3>Featured Collection</h3>-->
+                                    <h3>Qui sommes-nous ?</h3>
                                 </div><!-- /.block-title -->
-                                <p id="text-presentation-fred">15 ans déjà que je vous accueille au sein de Zaphyra. 15
-                                    années où il m’a été permis
-                                    d’aider un grand nombre de personnes à retrouver le chemin de leur identité, à
-                                    libérer leurs blocages inconscients et franchir leurs limites, à progresser dans
-                                    certaines disciplines de leur choix.<br><br>
-                                    Pour ma part, 25 années de formation et de pratique énergétique ont été
-                                    accompagnées, au départ, d’un cursus en biologie cellulaire et génétique. Une
-                                    expérience en grande distribution a débuté ma vie active, enrichissante pour
-                                    l’apprentissage du conseil à l’humain. Mon chemin de vie – mon choix – m’a par la
-                                    suite amené à créer Zaphyra.<br><br>
-                                    La mission essentielle de Zaphyra est d’accompagner les personnes vers un
-                                    mieux-être, grâce aux techniques énergétiques traditionnelles et modernes, ainsi que
-                                    pour la mise en œuvre de nouveaux réflexes d’action au quotidien. Ce afin
-                                    d’atteindre un nouvel équilibre de vie plus profitable, tant au niveau personnel que
-                                    professionnel.<br><br>
-                                    Mais je laisse mes collaborateurs (et amis) se présenter :</p>
-                                <div class="featured-collection__image">
-                                    <!--<img src="assets/images/resources/featured-collection-1-2.jpg" alt="">-->
-                                </div><!-- /.featured-collection__image -->
-                            </div><!-- /.featured-collection__right -->
+                                <p>Je suis Frédéric et j’ai créé Zaphyra en 2009.  Jeune, je ne me destinais pas à accompagner de nombreuses personnes en développement personnel et en pratiques énergétiques. J’ai suivi un cursus en biologie cellulaire et en génétique, et commencé une carrière dans la grande distribution. C’est dans cet environnement professionnel que j’ai commencé à comprendre que j’étais fait pour venir en aide à des collègues, des clients ou des amis.</p>
+                                <p>Mon chemin a alors bifurqué, et je suis parti à la recherche de pratiques, de techniques et de pensées participant à reconnecter les gens en souffrance avec leur moi profond. Ensuite, tout est allé très vite, j’ai acquis de nombreuses compétences dans le conseil à l’humain et une confiance en moi suffisante pour pouvoir ouvrir Zaphyra.</p>
+                                <p>Après 25 années de formation et de pratique, les participants aux ateliers, aux formations ou aux séances de coaching individuel se sont multipliés. Zaphyra est désormais toute une équipe au service de votre bien-être et de vos attentes personnelles.</p>
+                            </div><!-- /.about-four__content -->
                         </div><!-- /.col-lg-6 -->
                     </div><!-- /.row -->
                 </div><!-- /.container -->
-            </section><!-- /.featured-collection -->
-
+            </section><!-- /.about-four -->
         </div><!-- /.about-cta__wrapper -->
 
 

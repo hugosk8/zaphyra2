@@ -434,7 +434,7 @@
                                         <li><a href="<?= URL ?>coaching_de_vie">Le coaching de vie</a></li>
                                         <li><a href="<?= URL ?>soin_reiki">Le soin réiki</a></li>
                                         <h6 id="title-presentations-consult">Stages de développement personnel :</h6>
-                                        <li><a href="<?= URL ?>decouverte_de_sois">La découverte de soi</a></li>
+                                        <li><a href="<?= URL ?>decouverte_de_soi">La découverte de soi</a></li>
                                         <li><a href="<?= URL ?>chemin_du_chevalier">Le chemin du Chevalier</a></li>
                                         <li><a href="<?= URL ?>voie_du_pelerin">La voie du Pèlerin</a></li>
                                         <li><a href="<?= URL ?>voie_des_sens">La voie des Sens</a></li>
