@@ -75,7 +75,7 @@
 
         <div class="event-two__single">
             <div class="row">
-                <div class="col-lg-5 wow fadeInLeft" data-wow-duration="1500ms">
+                <div class="col-lg-5 wow fadeInLeft m-auto" data-wow-duration="1500ms">
                     <div class="event-two__image">
                         <div class="event-two__image-inner">
                         <img src="<?= URL ?>img/atelier4.webp" alt="">
@@ -85,52 +85,20 @@
                 <div class="col-lg-7 d-flex">
                     <div class="my-auto">
                         <div class="event-two__content">
-                            <p>Tout est affaire d’énergie dans notre vie. Notre bien-être, notre santé mentale et physique sont tributaires de la circulation fluide et équilibrée d’un flux en nous. La lithothérapie exploite le pouvoir des pierres qui deviennent des véhicules d’énergie pour rétablir l’équilibre en vous.</p>
+                            <p>
+                                Tout est affaire d’énergie dans notre vie. Notre bien-être, notre santé mentale et physique sont tributaires de la circulation fluide et équilibrée d’un flux en nous. La lithothérapie exploite le pouvoir des pierres qui deviennent des véhicules d’énergie pour rétablir l’équilibre en vous.
+                                <br><br>
+                                La formation de premier niveau de lithothérapie vous explique la liste des pierres utiles en lithothérapie (LIEN vers la boutique de pierres). Nous travaillons sur une centaine de cristaux et pierres différents ; chacun a sa couleur et une spécificité énergétique.
+                                <br><br>
+                                Puis nous passons à la pratique : un échange vibratoire entre pierres et cristaux d’une part et votre organisme de l’autre. Il s’agit d’user à bon escient des bonnes pierres pour rééquilibrer la circulation d’énergie.
+                                <br><br>
+                                Une formation de second niveau élargit votre horizon grâce à la réalisation de mandalas de pierres et cristaux.
+                            </p>
                         </div><!-- /.event-two__content -->
                     </div><!-- /.my-auto -->
                 </div><!-- /.col-lg-7 -->
             </div><!-- /.row -->
         </div><!-- /.event-two__single -->
-
-        <div class="event-two__single">
-            <div class="row">
-                <div class="col-lg-5 wow fadeInLeft" data-wow-duration="1500ms">
-                    <div class="event-two__image">
-                        <div class="event-two__image-inner">
-                            <img src="<?= URL ?>img/atelier5.webp" alt="">
-                        </div><!-- /.event-two__image-inner -->
-                    </div><!-- /.event-two__image -->
-                </div><!-- /.col-lg-5 -->
-                <div class="col-lg-7 d-flex">
-                    <div class="my-auto">
-                        <div class="event-two__content">
-                            <p>La formation de premier niveau de lithothérapie vous explique la liste des pierres utiles en lithothérapie (LIEN vers la boutique de pierres). Nous travaillons sur une centaine de cristaux et pierres différents ; chacun a sa couleur et une spécificité énergétique.</p>
-                        </div><!-- /.event-two__content -->
-                    </div><!-- /.my-auto -->
-                </div><!-- /.col-lg-7 -->
-            </div><!-- /.row -->
-        </div><!-- /.event-two__single -->
-
-        <div class="event-two__single">
-            <div class="row">
-                <div class="col-lg-5 wow fadeInLeft" data-wow-duration="1500ms">
-                    <div class="event-two__image">
-                        <div class="event-two__image-inner">
-                        <img src="<?= URL ?>img/atelier6.webp" alt="">
-                        </div><!-- /.event-two__image-inner -->
-                    </div><!-- /.event-two__image -->
-                </div><!-- /.col-lg-5 -->
-                <div class="col-lg-7 d-flex">
-                    <div class="my-auto">
-                        <div class="event-two__content">
-                            <p>Puis nous passons à la pratique : un échange vibratoire entre pierres et cristaux d’une part et votre organisme de l’autre. Il s’agit d’user à bon escient des bonnes pierres pour rééquilibrer la circulation d’énergie.</p>
-                        </div><!-- /.event-two__content -->
-                    </div><!-- /.my-auto -->
-                </div><!-- /.col-lg-7 -->
-            </div><!-- /.row -->
-        </div><!-- /.event-two__single -->
-        
-        <p class="text-center mt-5">Une formation de second niveau élargit votre horizon grâce à la réalisation de mandalas de pierres et cristaux.</p>
     </div><!-- /.container -->
 </section><!-- /.event-two -->
 
@@ -143,56 +111,28 @@
 
         <div class="event-two__single">
             <div class="row">
-                <div class="col-lg-5 wow fadeInLeft" data-wow-duration="1500ms">
+                <div class="col-lg-7 d-flex">
+                    <div class="my-auto">
+                        <div class="event-two__content">
+                            <p>
+                                La radiesthésie est indissociable du pendule qui permet d’exprimer physiquement la sensibilité énergétique et magnétique de son porteur. Vous découvrirez les multiples facettes de ce médium capable de valider une intuition et de rééquilibrer des énergies.
+                                <br><br>
+                                Selon les attentes des participants, le stage s’intéressera plutôt à la géobiologie qui dévoile des réseaux telluriques, à la radiesthésie des ondes de forme pour un rééquilibrage personnel, à la radiesthésie karmique pour démêler les nœuds de votre  vie.
+                                <br><br>
+                                Nous travaillons avec des planches de radiesthésie et des cadrans. À l’issue de l’atelier, vous serez autonome en pratique de base. Je propose également des stages de perfectionnement thématiques qui vous donnent de nouvelles clés dans cette pratique très large.
+                            </p>
+                        </div><!-- /.event-two__content -->
+                    </div><!-- /.my-auto -->
+                </div><!-- /.col-lg-7 -->
+                <div class="col-lg-5 wow fadeInLeft m-auto" data-wow-duration="1500ms">
                     <div class="event-two__image">
                         <div class="event-two__image-inner">
                         <img src="<?= URL ?>img/atelier7.webp" alt="">
                         </div><!-- /.event-two__image-inner -->
                     </div><!-- /.event-two__image -->
                 </div><!-- /.col-lg-5 -->
-                <div class="col-lg-7 d-flex">
-                    <div class="my-auto">
-                        <div class="event-two__content">
-                            <p>La radiesthésie est indissociable du pendule qui permet d’exprimer physiquement la sensibilité énergétique et magnétique de son porteur. Vous découvrirez les multiples facettes de ce médium capable de valider une intuition et de rééquilibrer des énergies.</p>
-                        </div><!-- /.event-two__content -->
-                    </div><!-- /.my-auto -->
-                </div><!-- /.col-lg-7 -->
             </div><!-- /.row -->
         </div><!-- /.event-two__single -->
-
-        <div class="event-two__single">
-            <div class="row">
-                <div class="col-lg-5 wow fadeInLeft" data-wow-duration="1500ms">
-                    <div class="event-two__image">
-                        <div class="event-two__image-inner">
-                            <img src="<?= URL ?>img/atelier8.webp" alt="">
-                        </div><!-- /.event-two__image-inner -->
-                    </div><!-- /.event-two__image -->
-                </div><!-- /.col-lg-5 -->
-                <div class="col-lg-7 d-flex">
-                    <div class="my-auto">
-                        <div class="event-two__content">
-                            <p>Selon les attentes des participants, le stage s’intéressera plutôt à la géobiologie qui dévoile des réseaux telluriques, à la radiesthésie des ondes de forme pour un rééquilibrage personnel, à la radiesthésie karmique pour démêler les nœuds de votre  vie.</p>
-                        </div><!-- /.event-two__content -->
-                    </div><!-- /.my-auto -->
-                </div><!-- /.col-lg-7 -->
-            </div><!-- /.row -->
-        </div><!-- /.event-two__single -->
-
-        <div class="event-two__single">
-            <div class="row">
-                <div class="col-lg-5 wow fadeInLeft" data-wow-duration="1500ms">
-                </div><!-- /.col-lg-5 -->
-                <div class="col-lg-7 d-flex">
-                    <div class="my-auto">
-                        <div class="event-two__content">
-                            <p>Nous travaillons avec des planches de radiesthésie et des cadrans. À l’issue de l’atelier, vous serez autonome en pratique de base. Je propose également des stages de perfectionnement thématiques qui vous donnent de nouvelles clés dans cette pratique très large.   </p>
-                        </div><!-- /.event-two__content -->
-                    </div><!-- /.my-auto -->
-                </div><!-- /.col-lg-7 -->
-            </div><!-- /.row -->
-        </div><!-- /.event-two__single -->
-        
     </div><!-- /.container -->
 </section><!-- /.event-two -->
 
