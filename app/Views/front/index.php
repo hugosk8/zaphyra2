@@ -7,7 +7,7 @@
                 <!-- Slide Item -->
                 <div class="slide-item">
                     <div class="image-layer lazy-image"
-                        style="background-image: url('assets/zaphyra/slider/slider1.webp');"></div>
+                        style="background-image: url('<?= URL ?>assets/img/accueil/slider1.webp');"></div>
 
                     <div class="container">
                         <div class="content-box text-center">
@@ -20,7 +20,7 @@
                 <!-- Slide Item -->
                 <div class="slide-item">
                     <div class="image-layer lazy-image"
-                        style="background-image: url('assets/zaphyra/slider/slider2.webp');"></div>
+                        style="background-image: url('<?= URL ?>assets/img/accueil/slider2.webp');"></div>
 
                     <div class="container">
                         <div class="content-box text-center">
@@ -33,7 +33,7 @@
                 <!-- Slide Item -->
                 <div class="slide-item">
                     <div class="image-layer lazy-image"
-                        style="background-image: url('assets/zaphyra/slider/slider3.webp');"></div>
+                        style="background-image: url('<?= URL ?>assets/img/accueil/slider3.webp');"></div>
 
                     <div class="container">
                         <div class="content-box text-center">
@@ -94,7 +94,7 @@
                                 <div class="event-one__image">
                                     <div class="event-one__image-box">
                                         <div class="event-one__image-inner">
-                                            <img src="<?= URL ?>img/squared/event1-1.jpg" alt="">
+                                            <img src="<?= URL ?>assets/img/accueil/round-img1.jpg" alt="">
                                         </div><!-- /.event-one__image-inner -->
                                     </div><!-- /.event-one__image-box -->
                                 </div><!-- /.event-one__image -->
@@ -112,7 +112,7 @@
                                 <div class="event-one__image">
                                     <div class="event-one__image-box">
                                         <div class="event-one__image-inner">
-                                            <img src="<?= URL ?>img/squared/event1-2.jpg" alt="">
+                                            <img src="<?= URL ?>assets/img/accueil/round-img2.jpg" alt="">
                                         </div><!-- /.event-one__image-inner -->
                                     </div><!-- /.event-one__image-box -->
                                 </div><!-- /.event-one__image -->
@@ -130,7 +130,7 @@
                                 <div class="event-one__image">
                                     <div class="event-one__image-box">
                                         <div class="event-one__image-inner">
-                                            <img src="<?= URL ?>img/squared/event1-3.jpg" alt="">
+                                            <img src="<?= URL ?>assets/img/accueil/round-img3.jpg" alt="">
                                         </div><!-- /.event-one__image-inner -->
                                     </div><!-- /.event-one__image-box -->
                                 </div><!-- /.event-one__image -->
@@ -148,7 +148,7 @@
                                 <div class="event-one__image">
                                     <div class="event-one__image-box">
                                         <div class="event-one__image-inner">
-                                            <img src="<?= URL ?>img/squared/event1-4.jpg" alt="">
+                                            <img src="<?= URL ?>assets/img/accueil/round-img4.jpg" alt="">
                                         </div><!-- /.event-one__image-inner -->
                                     </div><!-- /.event-one__image-box -->
                                 </div><!-- /.event-one__image -->
@@ -170,7 +170,7 @@
                                 <div class="event-one__image">
                                     <div class="event-one__image-box">
                                         <div class="event-one__image-inner">
-                                            <img src="<?= URL ?>img/squared/event1-5.jpg" alt="">
+                                            <img src="<?= URL ?>assets/img/accueil/round-img5.jpg" alt="">
                                         </div><!-- /.event-one__image-inner -->
                                     </div><!-- /.event-one__image-box -->
                                 </div><!-- /.event-one__image -->
@@ -194,7 +194,7 @@
             <section class="about-four">
                 <div class="container">
                     <div class="about-four__image wow fadeInRight" data-wow-duration="1500ms">
-                        <img src="<?= URL ?>assets/zaphyra/fredo.webp" alt="">
+                        <img src="<?= URL ?>assets/img/accueil/fredo.webp" alt="">
                     </div><!-- /.about-four__image -->
                     <div class="row">
                         <div class="col-lg-6">
@@ -241,7 +241,7 @@
     }'>
                 <div class="item">
                     <div class="collection-one__single">
-                        <img src="assets/zaphyra/gallery/coaching.webp" alt=" photo coaching">
+                        <img src="assets/img/accueil/carrousel1.webp" alt=" photo coaching">
                         <div class="collection-one__content">
                             <h2><a href="#">Coaching</a></h2>
                         </div><!-- /.collection-one__content -->
@@ -249,7 +249,7 @@
                 </div><!-- /.item -->
                 <div class="item">
                     <div class="collection-one__single">
-                        <img src="assets/zaphyra/gallery/soinenergetique.webp" alt="photo soin énergétique">
+                        <img src="assets/img/accueil/carrousel2.webp" alt="photo soin énergétique">
                         <div class="collection-one__content">
                             <h2><a href="#">Soin énergétique</a></h2>
                         </div><!-- /.collection-one__content -->
@@ -257,7 +257,7 @@
                 </div><!-- /.item -->
                 <div class="item">
                     <div class="collection-one__single">
-                        <img src="assets/zaphyra/gallery/bienetre.webp" alt=" photo bien être">
+                        <img src="assets/img/accueil/carrousel3.webp" alt=" photo bien être">
                         <div class="collection-one__content">
                             <h2><a href="#">Bien-être</a></h2>
                         </div><!-- /.collection-one__content -->
@@ -265,7 +265,7 @@
                 </div><!-- /.item -->
                 <div class="item">
                     <div class="collection-one__single">
-                        <img src="assets/zaphyra/gallery/devperso.webp" alt="photo développement personnel">
+                        <img src="assets/img/accueil/carrousel4.webp" alt="photo développement personnel">
                         <div class="collection-one__content">
                             <h2><a href="#">Développement personnel</a></h2>
                         </div><!-- /.collection-one__content -->
@@ -292,7 +292,7 @@
                     <div class="col-lg-4">
                         <div class="blog-one__single">
                             <div class="blog-one__image">
-                                <img src="assets/les-chakras.jpg" alt="">
+                                <img src="assets/img/accueil/les_chakras.jpg" alt="">
                             </div><!-- /.blog-one__image -->
                             <div class="blog-one__content">
                                 <h3><a href="<?= URL ?>les_chakras">Les chakras</a></h3>
@@ -305,7 +305,7 @@
                     <div class="col-lg-4">
                         <div class="blog-one__single">
                             <div class="blog-one__image">
-                                <img src="assets/les-couleurs.jpg" alt="">
+                                <img src="assets/img/accueil/les_couleurs.jpg" alt="">
                             </div><!-- /.blog-one__image -->
                             <div class="blog-one__content">
                                 <h3><a href="<?= URL ?>les_couleurs">Les couleurs</a></h3>
@@ -318,7 +318,7 @@
                     <div class="col-lg-4">
                         <div class="blog-one__single">
                             <div class="blog-one__image">
-                                <img src="assets/les-pierres.jpg" alt="">
+                                <img src="assets/img/accueil/les_pierres.jpg" alt="">
                             </div><!-- /.blog-one__image -->
                             <div class="blog-one__content">
                                 <h3><a href="<?= URL ?>les_pierres">Les pierres</a></h3>
@@ -338,7 +338,7 @@
                 <div class="container" id="containerIntro">
                     <div class="row justify-content-end">
                         <div class="col-2">
-                        <img src="assets/arbre.svg" style="max-width: 300px;" alt="arbre" class="about-one__moc">
+                        <img src="<?= URL ?>assets/img/accueil/arbre.svg" style="max-width: 300px;" alt="arbre" class="about-one__moc">
                         </div>
                         <div class="col-lg-8" id="coloneIntro">
                             <div class="about-one__feature">

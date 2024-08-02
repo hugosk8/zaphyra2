@@ -1,5 +1,5 @@
 <?php $title = 'test'?>
-<section class="page-header" style="background-image: url(assets/zaphyra/image-des-autres-page.jpg);">
+<section class="page-header" style="background-image: url(<?= URL ?>assets/img/breadcrumb.jpg);">
     <div class="container">
         <h2><?= $article->name ?></h2>
     </div><!-- /.container -->

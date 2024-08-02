@@ -1,5 +1,5 @@
 <?php $title = 'Contactez-nous sur notre formulaire de contact ou par téléphone' ?>
-<section class="page-header" style="background-image: url(assets/zaphyra/image-des-autres-page.jpg);">
+<section class="page-header" style="background-image: url(<?= URL ?>assets/img/breadcrumb.jpg);">
     <div class="container">
         <h2>CONTACT</h2>
     </div><!-- /.container -->

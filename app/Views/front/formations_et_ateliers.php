@@ -2,7 +2,7 @@
     <div class="banner-carousel thm__owl-carousel owl-theme owl-carousel" data-options='{"loop": true, "items": 1, "margin": 0, "dots": false, "nav": true, "animateOut": "fadeOut", "animateIn": "fadeIn", "active": true, "smartSpeed": 1000, "autoplay": true, "autoplayTimeout": 6000, "autoplayHoverPause": false}'>
         <!-- Slide Item -->
         <div class="slide-item">
-            <div class="image-layer lazy-image" style="background-image: url('<?= URL ?>img/atelier-banner.jpg');"></div>
+            <div class="image-layer lazy-image" style="background-image: url('<?= URL ?>assets/img/formations_et_ateliers/formations_et_ateliers_banner.jpg');"></div>
             <div class="container">
                 <div class="content-box text-center">
                     <h3>Formations et ateliers</h3>
@@ -24,7 +24,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="history-one__image wow fadeInLeft text-center" data-wow-duration="1500ms">
-                        <img src="<?= URL ?>img/atelier1.webp" alt="">
+                        <img src="<?= URL ?>assets/img/formations_et_ateliers/formations_et_ateliers1.webp" alt="">
                     </div><!-- /.history-one__image -->
                 </div><!-- /.col-lg-6 -->
                 <div class="col-lg-6 d-flex">
@@ -38,7 +38,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="history-one__image wow fadeInRight" data-wow-duration="1500ms">
-                        <img src="<?= URL ?>img/atelier2.webp" alt="">
+                        <img src="<?= URL ?>assets/img/formations_et_ateliers/formations_et_ateliers2.webp" alt="">
                     </div><!-- /.history-one__image -->
                 </div><!-- /.col-lg-6 -->
                 <div class="col-lg-6 d-flex">
@@ -52,7 +52,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="history-one__image wow fadeInLeft text-center" data-wow-duration="1500ms">
-                        <img src="<?= URL ?>img/atelier3.webp" alt="">
+                        <img src="<?= URL ?>assets/img/formations_et_ateliers/formations_et_ateliers3.webp" alt="">
                     </div><!-- /.history-one__image -->
                 </div><!-- /.col-lg-6 -->
                 <div class="col-lg-6 d-flex">
@@ -77,7 +77,7 @@
                 <div class="col-lg-5 wow fadeInLeft m-auto" data-wow-duration="1500ms">
                     <div class="event-two__image">
                         <div class="event-two__image-inner">
-                        <img src="<?= URL ?>img/atelier4.webp" alt="">
+                        <img src="<?= URL ?>assets/img/formations_et_ateliers/formations_et_ateliers4.webp" alt="">
                         </div><!-- /.event-two__image-inner -->
                     </div><!-- /.event-two__image -->
                 </div><!-- /.col-lg-5 -->
@@ -126,7 +126,7 @@
                 <div class="col-lg-5 wow fadeInLeft m-auto" data-wow-duration="1500ms">
                     <div class="event-two__image">
                         <div class="event-two__image-inner">
-                        <img src="<?= URL ?>img/atelier7.webp" alt="">
+                        <img src="<?= URL ?>assets/img/formations_et_ateliers/formations_et_ateliers7.webp" alt="">
                         </div><!-- /.event-two__image-inner -->
                     </div><!-- /.event-two__image -->
                 </div><!-- /.col-lg-5 -->

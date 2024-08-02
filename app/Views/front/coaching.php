@@ -2,7 +2,7 @@
     <div class="banner-carousel thm__owl-carousel owl-theme owl-carousel" data-options='{"loop": true, "items": 1, "margin": 0, "dots": false, "nav": true, "animateOut": "fadeOut", "animateIn": "fadeIn", "active": true, "smartSpeed": 1000, "autoplay": true, "autoplayTimeout": 6000, "autoplayHoverPause": false}'>
         <!-- Slide Item -->
         <div class="slide-item">
-            <div class="image-layer lazy-image" style="background-image: url('<?= URL ?>img/coaching-banner.webp');"></div>
+            <div class="image-layer lazy-image" style="background-image: url('<?= URL ?>assets/img/coaching/coaching-banner.webp');"></div>
             <div class="container">
                 <div class="content-box text-center">
                     <h3>Coaching de vie</h3>
@@ -24,7 +24,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="history-one__image wow fadeInLeft text-center" data-wow-duration="1500ms">
-                        <img src="<?= URL ?>img/coaching1.webp" alt="">
+                        <img src="<?= URL ?>assets/img/coaching/coaching1.webp" alt="">
                     </div><!-- /.history-one__image -->
                 </div><!-- /.col-lg-6 -->
                 <div class="col-lg-6 d-flex">
@@ -42,7 +42,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="history-one__image wow fadeInRight" data-wow-duration="1500ms">
-                        <img src="<?= URL ?>img/coaching2.webp" alt="">
+                        <img src="<?= URL ?>assets/img/coaching/coaching2.webp" alt="">
                     </div><!-- /.history-one__image -->
                 </div><!-- /.col-lg-6 -->
                 <div class="col-lg-6 d-flex">
@@ -56,7 +56,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="history-one__image wow fadeInLeft text-center" data-wow-duration="1500ms">
-                        <img src="<?= URL ?>img/coaching3.webp" alt="">
+                        <img src="<?= URL ?>assets/img/coaching/coaching3.webp" alt="">
                     </div><!-- /.history-one__image -->
                 </div><!-- /.col-lg-6 -->
                 <div class="col-lg-6 d-flex">
@@ -70,7 +70,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="history-one__image wow fadeInRight text-center" data-wow-duration="1500ms">
-                        <img src="<?= URL ?>img/coaching4.webp" alt="">
+                        <img src="<?= URL ?>assets/img/coaching/coaching4.webp" alt="">
                     </div><!-- /.history-one__image -->
                 </div><!-- /.col-lg-6 -->
                 <div class="col-lg-6 d-flex">

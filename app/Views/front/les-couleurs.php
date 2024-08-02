@@ -1,6 +1,6 @@
 <?php $title = ' Découvrez comment la psychologie des couleurs peut être utilisée sur le lieu de travail pour créer une culture positive. '?>
 
-        <section class="page-header" style="background-image: url(assets/zaphyra/image-des-autres-page.jpg);">
+        <section class="page-header" style="background-image: url(<?= URL ?>assets/img/breadcrumb.jpg);">
             <div class="container">
                 <h2>Les Couleurs</h2>
             </div><!-- /.container -->
@@ -22,7 +22,7 @@
                                     <div class="col-lg-5 animated fadeInLeft" data-wow-duration="1500ms">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="assets/zaphyra/couleurs/rouge.jpg"
+                                                <img src="<?= URL ?>assets/img/ressources/couleur_rouge.jpg"
                                                     alt="Couleur Rouge">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -55,7 +55,7 @@
                                     <div class="col-lg-5 animated fadeInLeft" data-wow-duration="1500ms">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="assets/zaphyra/couleurs/orange.jpg"
+                                                <img src="<?= URL ?>assets/img/ressources/couleur_orange.jpg"
                                                     alt="Couleur Orange">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -88,7 +88,7 @@
                                     <div class="col-lg-5 animated fadeInLeft" data-wow-duration="1500ms">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="assets/zaphyra/couleurs/jaune.jpg"
+                                                <img src="<?= URL ?>assets/img/ressources/couleur_jaune.jpg"
                                                     alt="Couleur Jaune">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -119,7 +119,7 @@
                                     <div class="col-lg-5 animated fadeInLeft" data-wow-duration="1500ms">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="assets/zaphyra/couleurs/vert.jpg"
+                                                <img src="<?= URL ?>assets/img/ressources/couleur_vert.jpg"
                                                     alt="Couleur Vert">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -151,7 +151,7 @@
                                     <div class="col-lg-5 animated fadeInLeft" data-wow-duration="1500ms">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="assets/zaphyra/couleurs/bleu.jpg"
+                                                <img src="<?= URL ?>assets/img/ressources/couleur_bleu.jpg"
                                                     alt="Couleur Bleu">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -185,7 +185,7 @@
                                     <div class="col-lg-5 animated fadeInLeft" data-wow-duration="1500ms">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="assets/zaphyra/couleurs/indigo.jpg"
+                                                <img src="<?= URL ?>assets/img/ressources/couleur_indigo.jpg"
                                                     alt="Couleur Indigo">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -219,7 +219,7 @@
                                     <div class="col-lg-5 animated fadeInLeft" data-wow-duration="1500ms">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="assets/zaphyra/couleurs/violet.jpg"
+                                                <img src="<?= URL ?>assets/img/ressources/couleur_violet.jpg"
                                                     alt="Couleur Violet">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->

@@ -2,7 +2,7 @@
     <div class="banner-carousel thm__owl-carousel owl-theme owl-carousel" data-options='{"loop": true, "items": 1, "margin": 0, "dots": false, "nav": true, "animateOut": "fadeOut", "animateIn": "fadeIn", "active": true, "smartSpeed": 1000, "autoplay": true, "autoplayTimeout": 6000, "autoplayHoverPause": false}'>
         <!-- Slide Item -->
         <div class="slide-item">
-            <div class="image-layer lazy-image" style="background-image: url('<?= URL ?>img/soins-banner.jpeg');"></div>
+            <div class="image-layer lazy-image" style="background-image: url('<?= URL ?>assets/img/soins_energetiques/soins_energetique_banner.jpeg');"></div>
             <div class="container">
                 <div class="content-box text-center">
                     <h3 class="text-shadow">Soins énergétiques</h3>
@@ -24,7 +24,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="history-one__image wow fadeInLeft text-center" data-wow-duration="1500ms">
-                        <img src="<?= URL ?>img/soins1.webp" alt="">
+                        <img src="<?= URL ?>assets/img/soins_energetiques/soins1.webp" alt="">
                     </div><!-- /.history-one__image -->
                 </div><!-- /.col-lg-6 -->
                 <div class="col-lg-6 d-flex">
@@ -38,7 +38,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="history-one__image wow fadeInRight" data-wow-duration="1500ms">
-                        <img src="<?= URL ?>img/soins2.webp" alt="">
+                        <img src="<?= URL ?>assets/img/soins_energetiques/soins2.webp" alt="">
                     </div><!-- /.history-one__image -->
                 </div><!-- /.col-lg-6 -->
                 <div class="col-lg-6 d-flex">
@@ -52,7 +52,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="history-one__image wow fadeInLeft text-center" data-wow-duration="1500ms">
-                        <img src="<?= URL ?>img/soins3.webp" alt="">
+                        <img src="<?= URL ?>assets/img/soins_energetiques/soins3.webp" alt="">
                     </div><!-- /.history-one__image -->
                 </div><!-- /.col-lg-6 -->
                 <div class="col-lg-6 d-flex">
@@ -66,7 +66,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="history-one__image wow fadeInRight text-center" data-wow-duration="1500ms">
-                        <img src="<?= URL ?>img/soins4.webp" alt="">
+                        <img src="<?= URL ?>assets/img/soins_energetiques/soins4.webp" alt="">
                     </div><!-- /.history-one__image -->
                 </div><!-- /.col-lg-6 -->
                 <div class="col-lg-6 d-flex">
@@ -91,7 +91,7 @@
                 <div class="col-lg-5 wow fadeInLeft" data-wow-duration="1500ms">
                     <div class="event-two__image">
                         <div class="event-two__image-inner">
-                        <img src="<?= URL ?>img/soins5.webp" alt="">
+                        <img src="<?= URL ?>assets/img/soins_energetiques/soins5.webp" alt="">
                         </div><!-- /.event-two__image-inner -->
                     </div><!-- /.event-two__image -->
                 </div><!-- /.col-lg-5 -->
@@ -110,7 +110,7 @@
                 <div class="col-lg-5 wow fadeInLeft" data-wow-duration="1500ms">
                     <div class="event-two__image">
                         <div class="event-two__image-inner">
-                            <img src="<?= URL ?>img/soins6.webp" alt="">
+                            <img src="<?= URL ?>assets/img/soins_energetiques/soins6.webp" alt="">
                         </div><!-- /.event-two__image-inner -->
                     </div><!-- /.event-two__image -->
                 </div><!-- /.col-lg-5 -->
@@ -129,7 +129,7 @@
                 <div class="col-lg-5 wow fadeInLeft" data-wow-duration="1500ms">
                     <div class="event-two__image">
                         <div class="event-two__image-inner">
-                        <img src="<?= URL ?>img/soins7.webp" alt="">
+                        <img src="<?= URL ?>assets/img/soins_energetiques/soins7.webp" alt="">
                         </div><!-- /.event-two__image-inner -->
                     </div><!-- /.event-two__image -->
                 </div><!-- /.col-lg-5 -->

@@ -85,7 +85,7 @@ class IndexController extends AppController
                 <br><br>
                 Les niveaux énergétique et émotionnel sont visés par le soin. Outre l’intervention pour alléger la tension, cela permet la mise en lumière – et en conscience – des blocages engendrés dans notre fonctionnement quotidien. Le choix devient alors possible de changer certains comportements pour obtenir des résultats différents, plus en adéquation avec la personne que nous sommes réellement aujourd’hui.
         ';
-        $image = '/soin-aurique.jpg';
+        $image = '/soin_aurique.jpg';
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
@@ -106,7 +106,7 @@ class IndexController extends AppController
                 <br><br>
                 Grâce au soutien du coach, une prise de recul et une ouverture deviennent possible afin de tendre vers la compréhension des interactions avec le monde extérieur et des freins intérieurs à la réussite. Une implication sur le long terme permet d’atteindre ses objectifs et bien souvent de les modifier suite à des prises de conscience de nos réelles envies.
         ';
-        $image = '/coaching.jpeg';
+        $image = '/coaching_de_vie.jpeg';
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
@@ -125,7 +125,7 @@ class IndexController extends AppController
                 <br><br>
                 Le réiki est une énergie douce qui pourra, au fil de séances régulières, renforcer notre énergie individuelle et réveiller les capacités de guérison intrinsèques à chacun, en cas de besoin. Le praticien n’interfère par aucune intention particulière mais laisse plutôt le réiki interagir avec notre énergie. Le ressenti intuitif de points de blocage pourra toutefois l’amener à insister sur certaines zones. Un moment d’échange suit généralement la séance, permettant de recueillir les ressentis respectifs.
         ';
-        $image = '/soins-reiki.png';
+        $image = '/soins_reiki.png';
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
@@ -148,7 +148,7 @@ class IndexController extends AppController
                 <br><br>
                 Au travers de multiples exercices basés notamment sur l’art-thérapie, ce stage encourage votre créativité afin de partir à la rencontre de vous-mêmes pour vous redécouvrir sous un jour nouveau. La prise de conscience des entraves qui vous freinent vous offrira l’opportunité de les écarter, afin de progresser vers votre pleine réalisation et celle de vos rêves.
         ';
-        $image = '/decouverte-de-soi.jpeg';
+        $image = '/decouverte_de_soi.jpeg';
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
@@ -180,7 +180,7 @@ class IndexController extends AppController
                 </ul>
                 Renouer avec vos émotions parfois enfouies et limitantes, comprendre la nécessité de vos idéaux et la fragilité de vos certitudes sont autant d’étapes qui vous conduiront au Chevalier qui sommeille en vous !
         ';
-        $image = '/chemin-du-chevalier.jpg';
+        $image = '/chemin_du_chevalier.jpg';
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
@@ -203,7 +203,7 @@ class IndexController extends AppController
                 <br><br>
                 C’est ce que vous offre la voie du Pèlerin : la possibilité de mettre en lumière vos réflexes de fonctionnement, votre manière d’appréhender la vie et d’interagir avec les autres. Une fois ces clés identifiées, vous aurez la possibilité de transcender vos mises en place, pour sortir du labyrinthe et avancer enfin sur la voie que vous souhaitez.
         ';
-        $image = '/voie-du-pelerin.webp';
+        $image = '/voie_du_pelerin.webp';
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
@@ -228,7 +228,7 @@ class IndexController extends AppController
                 <br>
                 Oser vivre, quelle bonne idée !
         ';
-        $image = '/voie-des-sens.jpg';
+        $image = '/voie_des_sens.jpg';
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
@@ -282,7 +282,7 @@ class IndexController extends AppController
                     </li>
                 </ul>
         ';
-        $image = '/initiation-reiki.jpeg';
+        $image = '/initiation_au_reiki.jpeg';
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
@@ -383,7 +383,7 @@ class IndexController extends AppController
                 <br>
                 Accédez à une nouvelle dimension de vous-mêmes !
         ';
-        $image = '/perception-energetique.jpg';
+        $image = '/perception_energetique.jpg';
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,

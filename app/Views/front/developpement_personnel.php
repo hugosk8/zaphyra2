@@ -2,7 +2,7 @@
     <div class="banner-carousel thm__owl-carousel owl-theme owl-carousel" data-options='{"loop": true, "items": 1, "margin": 0, "dots": false, "nav": true, "animateOut": "fadeOut", "animateIn": "fadeIn", "active": true, "smartSpeed": 1000, "autoplay": true, "autoplayTimeout": 6000, "autoplayHoverPause": false}'>
         <!-- Slide Item -->
         <div class="slide-item">
-            <div class="image-layer lazy-image" style="background-image: url('<?= URL ?>img/dev_perso_banner.jpeg');"></div>
+            <div class="image-layer lazy-image" style="background-image: url('<?= URL ?>assets/img/developpement_personnel/dev_perso_banner.webp');"></div>
             <div class="container">
                 <div class="content-box text-center">
                     <h3>Développement personnel</h3>
@@ -38,7 +38,7 @@
                 <div class="col-lg-5 wow fadeInLeft m-auto" data-wow-duration="1500ms">
                     <div class="event-two__image">
                         <div class="event-two__image-inner">
-                        <img src="<?= URL ?>img/dev1.webp" alt="">
+                        <img src="<?= URL ?>assets/img/developpement_personnel/dev_perso1.webp" alt="">
                         </div><!-- /.event-two__image-inner -->
                     </div><!-- /.event-two__image -->
                 </div><!-- /.col-lg-5 -->
@@ -59,7 +59,7 @@
                 <div class="col-lg-5 wow fadeInLeft m-auto" data-wow-duration="1500ms">
                     <div class="event-two__image">
                         <div class="event-two__image-inner">
-                        <img src="<?= URL ?>img/dev2.webp" alt="">
+                        <img src="<?= URL ?>assets/img/developpement_personnel/dev_perso2.webp" alt="">
                         </div><!-- /.event-two__image-inner -->
                     </div><!-- /.event-two__image -->
                 </div><!-- /.col-lg-5 -->
@@ -104,7 +104,7 @@
                 <div class="col-lg-5 wow fadeInLeft m-auto" data-wow-duration="1500ms">
                     <div class="event-two__image">
                         <div class="event-two__image-inner">
-                        <img src="<?= URL ?>img/dev3.webp" alt="">
+                        <img src="<?= URL ?>assets/img/developpement_personnel/dev_perso3.webp" alt="">
                         </div><!-- /.event-two__image-inner -->
                     </div><!-- /.event-two__image -->
                 </div><!-- /.col-lg-5 -->
@@ -125,7 +125,7 @@
                 <div class="col-lg-5 wow fadeInLeft m-auto" data-wow-duration="1500ms">
                     <div class="event-two__image">
                         <div class="event-two__image-inner">
-                        <img src="<?= URL ?>img/dev4.webp" alt="">
+                        <img src="<?= URL ?>assets/img/developpement_personnel/dev_perso4.webp" alt="">
                         </div><!-- /.event-two__image-inner -->
                     </div><!-- /.event-two__image -->
                 </div><!-- /.col-lg-5 -->

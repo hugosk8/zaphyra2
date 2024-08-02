@@ -1,5 +1,5 @@
 <?php $title = ' Vous cherchez des informations sur les chakras ? Zaphyra a tout ce que vous devez savoir, des bases aux concepts plus approfondis. Commencez dès aujourd\'hui !'?>
-    <section class="page-header" style="background-image: url(assets/zaphyra/image-des-autres-page.jpg);">
+    <section class="page-header" style="background-image: url(<?= URL ?>assets/img/breadcrumb.jpg);">
             <div class="container">
                 <h2>Les Chakras</h2>
             </div><!-- /.container -->
@@ -10,7 +10,7 @@
                     <div class="col-lg-8 filter-layout">
                         <div class="blog-details__main filter-item chakra1">
                             <div class="blog-details__image">
-                                <img src="assets/zaphyra/les chakras/1.png" class="img-fluid" alt="Chakra 1">
+                                <img src="<?= URL ?>assets/img/ressources/chakra1.png" class="img-fluid" alt="Chakra 1">
                             </div><!-- /.blog-details__image -->
                             <div class="block-title event-two__title">
                                 <p id="titlesChakras">1er Chakra : Mulrhara<br></p>
@@ -56,7 +56,7 @@
 
                         <div class="blog-details__main filter-item chakra2">
                             <div class="blog-details__image">
-                                <img src="assets/zaphyra/les chakras/2.png" class="img-fluid" alt="Chakra 2">
+                                <img src="<?= URL ?>assets/img/ressources/chakra2.png" class="img-fluid" alt="Chakra 2">
                             </div><!-- /.blog-details__image -->
                             <div class="block-title event-two__title">
                                 <p id="titlesChakras">2eme Chakra : Shadistana<br></p>
@@ -100,7 +100,7 @@
 
                         <div class="blog-details__main filter-item chakra3">
                             <div class="blog-details__image">
-                                <img src="assets/zaphyra/les chakras/3.png" class="img-fluid" alt="Chakra 3">
+                                <img src="<?= URL ?>assets/img/ressources/chakra3.png" class="img-fluid" alt="Chakra 3">
                             </div><!-- /.blog-details__image -->
                             <div class="block-title event-two__title">
                                 <p id="titlesChakras">3eme Chakra : Manipura<br></p>
@@ -144,7 +144,7 @@
 
                         <div class="blog-details__main filter-item chakra4">
                             <div class="blog-details__image">
-                                <img src="assets/zaphyra/les chakras/4.png" class="img-fluid" alt="Chakra 4">
+                                <img src="<?= URL ?>assets/img/ressources/chakra4.png" class="img-fluid" alt="Chakra 4">
                             </div><!-- /.blog-details__image -->
                             <div class="block-title event-two__title">
                                 <p id="titlesChakras">4eme Chakra : Anahata<br></p>
@@ -192,7 +192,7 @@
 
                         <div class="blog-details__main filter-item chakra5">
                             <div class="blog-details__image">
-                                <img src="assets/zaphyra/les chakras/5.png" class="img-fluid" alt="Chakra 5">
+                                <img src="<?= URL ?>assets/img/ressources/chakra5.png" class="img-fluid" alt="Chakra 5">
                             </div><!-- /.blog-details__image -->
                             <div class="block-title event-two__title">
                                 <p id="titlesChakras">5eme Chakra : Vishudha<br></p>
@@ -242,7 +242,7 @@
 
                         <div class="blog-details__main filter-item chakra6">
                             <div class="blog-details__image">
-                                <img src="assets/zaphyra/les chakras/6.png" class="img-fluid" alt="Chakra 6">
+                                <img src="<?= URL ?>assets/img/ressources/chakra6.png" class="img-fluid" alt="Chakra 6">
                             </div><!-- /.blog-details__image -->
                             <div class="block-title event-two__title">
                                 <p id="titlesChakras">6eme Chakra : Ajna<br></p>
@@ -288,7 +288,7 @@
 
                         <div class="blog-details__main filter-item chakra7">
                             <div class="blog-details__image">
-                                <img src="assets/zaphyra/les chakras/7.png" class="img-fluid" alt="Chakra 7">
+                                <img src="<?= URL ?>assets/img/ressources/chakra7.png" class="img-fluid" alt="Chakra 7">
                             </div><!-- /.blog-details__image -->
                             <div class="block-title event-two__title">
                                 <p id="titlesChakras">7eme Chakra : Sahasrara<br></p>

@@ -1,5 +1,5 @@
 <?php $title = 'test'?>
-    <section class="page-header" style="background-image: url(assets/zaphyra/image-des-autres-page.jpg);">
+    <section class="page-header" style="background-image: url(<?= URL ?>assets/img/breadcrumb.jpg);">
         <div class="container">
             <h2><?= $presta_title ?></h2>
         </div><!-- /.container -->
@@ -18,7 +18,7 @@
                                 <br>
                                 <p id="text-prestations" class="mb-0"><b><?= $tarif ?></b></p>
                                 <div class="img-container d-flex justify-content-center">
-                                    <img src="<?= URL ?>img<?= $image ?>" class="img-fluid" alt="">
+                                    <img src="<?= URL ?>assets/img/prestations/<?= $image ?>" class="img-fluid" alt="">
                                 </div>
                                 <p id="text-prestations"><?= $description ?></p>
                             </div><!-- /.blog-details__main -->
@@ -35,7 +35,7 @@
                                         <li><a href="<?= URL ?>coaching_de_vie">Le coaching de vie</a></li>
                                         <li><a href="<?= URL ?>soin_reiki">Le soin réiki</a></li>
                                         <h6 id="title-presentations-consult">Stages de développement personnel :</h6>
-                                        <li><a href="<?= URL ?>">La découverte de soi</a></li>
+                                        <li><a href="<?= URL ?>decouverte_de_soi">La découverte de soi</a></li>
                                         <li><a href="<?= URL ?>chemin_du_chevalier">Le chemin du Chevalier</a></li>
                                         <li><a href="<?= URL ?>voie_du_pelerin">La voie du Pèlerin</a></li>
                                         <li><a href="<?= URL ?>voie_des_sens">La voie des Sens</a></li>
