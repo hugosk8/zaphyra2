@@ -32,7 +32,7 @@
 
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= URL ?>admin">
-        <img style="max-width: 100px;" src="assets/logo.svg" alt="" srcset="">
+        <img style="max-width: 100px;" src="<?= URL ?>assets/img/logo/logo.svg" alt="" srcset="">
       </a>
 
       <!-- Divider -->

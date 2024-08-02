@@ -7,7 +7,6 @@ use Core\Recaptcha\Recaptcha;
 
 class IndexController extends AppController
 {
-
     protected $event;
     protected $article;
     protected $categorie;
@@ -20,13 +19,17 @@ class IndexController extends AppController
         $this->loadModel('categorie');
     }
 
-    public function index()
-    {
-        $this->render('front/index');
+    public function index() {
+        $meta = "Retrouvez le sens de votre vie, réveillez l’énergie qui est en vous, travaillez sur vos blocages enfouis au centre de bien-être Zaphyra à Lille";
+        $title = "À Lille, votre centre de bien-être et de développement personnel";
+        $variables = [
+            'page_title' => $title,
+            'meta' => $meta
+        ];
+        $this->render('front/index', $variables);
     }
 
-    public function products()
-    {
+    public function products() {
         $categorie = $this->categorie->GetBySlug($this->url[2]);
         if ($categorie == false) {
             header('Location: ' . URL . 'home');
@@ -35,19 +38,22 @@ class IndexController extends AppController
         $this->render('front/product', compact('categorie', 'products'));
     }
 
-    public function evenements()
-    {
+    public function evenements() {
         $events = $this->event->EventDESCDate();
         $this->render('front/evenements', compact('events'));
     }
 
-    public function prestations()
-    {
-        $this->render('front/prestations');
+    public function prestations() {
+        $meta = "Découvrez une gamme de prestations pour votre bien-être et développement personnel : soins énergétiques, coaching, réiki, tarot, lithothérapie, et plus encore.";
+        $title = "Nos prestations";
+        $variables = [
+            'page_title' => $title,
+            'meta' => $meta
+        ];
+        $this->render('front/prestations', $variables);
     }
 
-    public function blog()
-    {
+    public function blog() {
         if(isset($_GET['id'])) {
             $article = $this->article->find($_GET['id']);
             if($article === false) {
@@ -61,22 +67,38 @@ class IndexController extends AppController
         $this->render('front/blog', compact('categories','articles'));
     }
 
-    public function les_pierres()
-    {
-        $this->render('front/les-pierres');
+    public function les_pierres() {
+        $meta = "Découvrez l'univers magique des cristaux. Apprenez les propriétés énergétiques et symboliques de diverses pierres précieuses et semi-précieuses pour votre bien-être.";
+        $title = "Les pierres";
+        $variables = [
+            'page_title' => $title,
+            'meta' => $meta
+        ];
+        $this->render('front/les-pierres', $variables);
     }
 
-    public function les_chakras()
-    {
-        $this->render('front/les-chakras');
+    public function les_chakras() {
+        $meta = "Explorez les 7 chakras, leurs fonctions, couleurs et éléments associés. Découvrez comment chaque chakra influence votre corps, esprit et bien-être global.";
+        $title = "Les chakras";
+        $variables = [
+            'page_title' => $title,
+            'meta' => $meta
+        ];
+        $this->render('front/les-chakras', $variables);
     }
 
-    public function les_couleurs()
-    {
-        $this->render('front/les-couleurs');
+    public function les_couleurs() {
+        $meta = "Découvrez la signification des couleurs et leur impact psychologique et énergétique. Rouge, orange, jaune, vert, bleu, indigo et violet : chaque couleur influence notre bien-être.";
+        $title = "Les couleurs";
+        $variables = [
+            'page_title' => $title,
+            'meta' => $meta
+        ];
+        $this->render('front/les-couleurs', $variables);
     }
 
     public function soin_aurique() {
+        $meta = "Libérez les mémoires limitantes avec le soin aurique. Une immersion énergétique de 60 min pour débloquer et harmoniser votre circulation d'énergie.";
         $title = "Le soin aurique";
         $tarif = "- Soin aurique ( 60 min ) : 65 €";
         $description = '
@@ -85,17 +107,20 @@ class IndexController extends AppController
                 <br><br>
                 Les niveaux énergétique et émotionnel sont visés par le soin. Outre l’intervention pour alléger la tension, cela permet la mise en lumière – et en conscience – des blocages engendrés dans notre fonctionnement quotidien. Le choix devient alors possible de changer certains comportements pour obtenir des résultats différents, plus en adéquation avec la personne que nous sommes réellement aujourd’hui.
         ';
-        $image = '/soin_aurique.jpg';
+        $image = '/soin_aurique.webp';
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
             'description' => $description,
-            'image' => $image
+            'image' => $image,
+            'page_title' => $title,
+            'meta' => $meta
         ];
         $this->render('front/single_prestation', $variables);
     }
 
     public function coaching_de_vie() {
+        $meta = "Atteignez vos objectifs et améliorez votre bien-être avec une séance de coaching de vie de 60 min. Transformez votre vision et adoptez de nouveaux réflexes.";
         $title = "Coaching de vie";
         $tarif = "- Coaching ( 60 min ) : 65 €";
         $description = '
@@ -106,17 +131,20 @@ class IndexController extends AppController
                 <br><br>
                 Grâce au soutien du coach, une prise de recul et une ouverture deviennent possible afin de tendre vers la compréhension des interactions avec le monde extérieur et des freins intérieurs à la réussite. Une implication sur le long terme permet d’atteindre ses objectifs et bien souvent de les modifier suite à des prises de conscience de nos réelles envies.
         ';
-        $image = '/coaching_de_vie.jpeg';
+        $image = '/coaching_de_vie.webp';
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
             'description' => $description,
-            'image' => $image
+            'image' => $image,
+            'page_title' => $title,
+            'meta' => $meta
         ];
         $this->render('front/single_prestation', $variables);
     }
 
     public function soin_reiki() {
+        $meta = "Harmonisez votre énergie avec une séance réiki de 1h. Détente immédiate et renforcement de votre énergie individuelle à travers 27 centres d'énergie.";
         $title = "Le soin réiki";
         $tarif = "- Séance (1h) : 45 €";
         $description = '
@@ -125,17 +153,20 @@ class IndexController extends AppController
                 <br><br>
                 Le réiki est une énergie douce qui pourra, au fil de séances régulières, renforcer notre énergie individuelle et réveiller les capacités de guérison intrinsèques à chacun, en cas de besoin. Le praticien n’interfère par aucune intention particulière mais laisse plutôt le réiki interagir avec notre énergie. Le ressenti intuitif de points de blocage pourra toutefois l’amener à insister sur certaines zones. Un moment d’échange suit généralement la séance, permettant de recueillir les ressentis respectifs.
         ';
-        $image = '/soins_reiki.png';
+        $image = '/soins_reiki.webp';
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
             'description' => $description,
-            'image' => $image
+            'image' => $image,
+            'page_title' => $title,
+            'meta' => $meta
         ];
         $this->render('front/single_prestation', $variables);
     }
 
     public function decouverte_de_soi() {
+        $meta = "Redécouvrez-vous lors d'une journée de découverte de soi. Dialoguez avec votre inconscient et révélez vos talents cachés à travers l'art-thérapie.";
         $title = "La découverte de soi";
         $tarif = "- Découverte de soi 1 jour : 160€";
         $description = '
@@ -148,17 +179,20 @@ class IndexController extends AppController
                 <br><br>
                 Au travers de multiples exercices basés notamment sur l’art-thérapie, ce stage encourage votre créativité afin de partir à la rencontre de vous-mêmes pour vous redécouvrir sous un jour nouveau. La prise de conscience des entraves qui vous freinent vous offrira l’opportunité de les écarter, afin de progresser vers votre pleine réalisation et celle de vos rêves.
         ';
-        $image = '/decouverte_de_soi.jpeg';
+        $image = '/decouverte_de_soi.webp';
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
             'description' => $description,
-            'image' => $image
+            'image' => $image,
+            'page_title' => $title,
+            'meta' => $meta
         ];
         $this->render('front/single_prestation', $variables);
     }
 
     public function chemin_du_chevalier() {
+        $meta = "Révélez votre valeur lors du stage de 2 jours du Chemin du Chevalier. Explorez vos forces et faiblesses à travers la légende arthurienne.";
         $title = "Le chemin du Chevalier";
         $tarif = "- Chemin du chevalier 2 jours : 300€";
         $description = '
@@ -180,17 +214,20 @@ class IndexController extends AppController
                 </ul>
                 Renouer avec vos émotions parfois enfouies et limitantes, comprendre la nécessité de vos idéaux et la fragilité de vos certitudes sont autant d’étapes qui vous conduiront au Chevalier qui sommeille en vous !
         ';
-        $image = '/chemin_du_chevalier.jpg';
+        $image = '/chemin_du_chevalier.webp';
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
             'description' => $description,
-            'image' => $image
+            'image' => $image,
+            'page_title' => $title,
+            'meta' => $meta
         ];
         $this->render('front/single_prestation', $variables);
     }
 
     public function voie_du_pelerin() {
+        $meta = "Découvrez la Voie du Pèlerin pour mettre en lumière vos modes de fonctionnement et avancer vers votre véritable chemin de vie.";
         $title = "La voie du pèlerin";
         $tarif = "- Chemin du pèlerin : 300€";
         $description = '
@@ -208,12 +245,15 @@ class IndexController extends AppController
             'presta_title' => $title,
             'tarif' => $tarif,
             'description' => $description,
-            'image' => $image
+            'image' => $image,
+            'page_title' => $title,
+            'meta' => $meta
         ];
         $this->render('front/single_prestation', $variables);
     }
 
     public function voie_des_sens() {
+        $meta = "(Re)découvrez vos 5 sens avec la Voie des Sens. Une journée immersive pour renouer avec les sensations essentielles de la vie quotidienne.";
         $title = "La voie des Sens";
         $tarif = "- La voie des sens : 120 €";
         $description = '
@@ -228,17 +268,20 @@ class IndexController extends AppController
                 <br>
                 Oser vivre, quelle bonne idée !
         ';
-        $image = '/voie_des_sens.jpg';
+        $image = '/voie_des_sens.webp';
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
             'description' => $description,
-            'image' => $image
+            'image' => $image,
+            'page_title' => $title,
+            'meta' => $meta
         ];
         $this->render('front/single_prestation', $variables);
     }
 
     public function initiation_au_reiki() {
+        $meta = "Apprenez le réiki, une méthode de transmission d'énergie pour votre bien-être et celui des autres. Plusieurs niveaux disponibles.";
         $title = "Initiation au réiki";
         $tarif = '
             <span class="title">1 degré : </span>
@@ -282,17 +325,20 @@ class IndexController extends AppController
                     </li>
                 </ul>
         ';
-        $image = '/initiation_au_reiki.jpeg';
+        $image = '/initiation_au_reiki.webp';
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
             'description' => $description,
-            'image' => $image
+            'image' => $image,
+            'page_title' => $title,
+            'meta' => $meta
         ];
         $this->render('front/single_prestation', $variables);
     }
 
     public function intuition_et_symbolique_par_le_tarot() {
+        $meta = "Développez votre intuition avec le tarot lors d'un stage de 2 jours. Renforcez votre confiance et apprenez les tirages classiques.";
         $title = "Intuition et symbolique par le tarot";
         $tarif = "- Intuition et voyance 2 jours : 220 €";
         $description = '
@@ -305,17 +351,20 @@ class IndexController extends AppController
                 <br><br>
                 Être à l’écoute de soi et de sa vérité est une clé essentielle de la réussite !
         ';
-        $image = '/tarot.jpg';
+        $image = '/tarot.webp';
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
             'description' => $description,
-            'image' => $image
+            'image' => $image,
+            'page_title' => $title,
+            'meta' => $meta
         ];
         $this->render('front/single_prestation', $variables);
     }
 
     public function radiesthesie() {
+        $meta = "Maîtrisez l'utilisation du pendule en énergétique. Un stage de 2 jours pour rééquilibrer les énergies et découvrir les champs magnétiques.";
         $title = "Radiesthésie";
         $tarif = "- Energie de l’habitat ( 2 jours ) : 220 €";
         $description = '
@@ -335,17 +384,20 @@ class IndexController extends AppController
                 </ul>
                 Les principes théoriques et les protocoles d’utilisation vous seront enseignés, afin de vous rendre autonome pour une pratique de base. Vous pourrez par la suite vous perfectionner en participant à différents stages thématiques.
         ';
-        $image = '/radiesthesie.jpeg';
+        $image = '/radiesthesie.webp';
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
             'description' => $description,
-            'image' => $image
+            'image' => $image,
+            'page_title' => $title,
+            'meta' => $meta
         ];
         $this->render('front/single_prestation', $variables);
     }
 
     public function lithotherapie() {
+        $meta = "Découvrez les bienfaits des cristaux en lithothérapie. Un stage de 2 jours avec 22 pierres de base fournies pour réaliser des soins énergétiques.";
         $title = "Lithothérapie";
         $tarif = "
             - Stage energie des cristaux  ( 2 jours ) : 220 €
@@ -365,12 +417,15 @@ class IndexController extends AppController
             'presta_title' => $title,
             'tarif' => $tarif,
             'description' => $description,
-            'image' => $image
+            'image' => $image,
+            'page_title' => $title,
+            'meta' => $meta
         ];
         $this->render('front/single_prestation', $variables);
     }
 
     public function perception_energetique() {
+        $meta = "Ouvrez votre conscience aux énergies environnantes et intérieures. Un stage pratique pour affiner votre perception énergétique et améliorer votre fluidité.";
         $title = "Perceptions énergétiques";
         $tarif = "- Stage de perception énergétique : 120 €";
         $description = '
@@ -383,41 +438,69 @@ class IndexController extends AppController
                 <br>
                 Accédez à une nouvelle dimension de vous-mêmes !
         ';
-        $image = '/perception_energetique.jpg';
+        $image = '/perception_energetique.webp';
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
             'description' => $description,
-            'image' => $image
+            'image' => $image,
+            'page_title' => $title,
+            'meta' => $meta
         ];
         $this->render('front/single_prestation', $variables);
     }
 
     public function coaching() {
-        $this->render('front/coaching');
+        $page_title = "Réussir votre développement personnel avec un coach de vie";
+        $meta = "Transformez votre existence  avec l'aide d'un coach de vie. Retrouvez l'énergie, l'équilibre, la réussite professionnelle ou personnelle chez Zaphyra";
+        $variables = [
+            'page_title' => $page_title,
+            'meta' => $meta
+        ];
+        $this->render('front/coaching', $variables);
     }
 
     public function soins_energetiques() {
-        $this->render('front/soins_energetiques');
+        $page_title = "Des soins énergétiques pour soigner l’équilibre de votre corps";
+        $meta = "Les soins énergétiques, comme le soin aurique ou le Réiki sont idéaux pour rétablir et consolider l’équilibre de votre flux énergétique.";
+        $variables = [
+            'page_title' => $page_title,
+            'meta' => $meta
+        ];
+        $this->render('front/soins_energetiques', $variables);
     }
 
-    public function contact()
-    {
-        $this->render('front/contact');
+    public function formations_et_ateliers() {
+        $page_title = "Maîtrisez le Reiki et la radiesthésie aux ateliers Zaphyra";
+        $meta = "Développez vos capacités personnelles et votre bien-être : suivez un atelier de Reiki, de lithothérapie ou de voyance dans le Nord";
+        $variables = [
+            'page_title' => $page_title,
+            'meta' => $meta
+        ];
+        $this->render('front/formations_et_ateliers', $variables);
     }
 
-    public function formations_et_ateliers()
-    {
-        $this->render('front/formations_et_ateliers');
+    public function developpement_personnel() {
+        $page_title = "Trouvez votre voie dans nos stages de développement personnel";
+        $meta = "Découvrez vos forces, surmontez vos blocages, reconnectez votre corps et vos sens au cours de nos stages en développement personnel à Lille";
+        $variables = [
+            'page_title' => $page_title,
+            'meta' => $meta
+        ];
+        $this->render('front/developpement_personnel', $variables);
     }
 
-    public function developpement_personnel()
-    {
-        $this->render('front/developpement_personnel');
+    public function contact() {
+        $page_title = "Contact";
+        $meta = "Contactez-nous pour toute question ou rendez-vous. Retrouvez nos horaires, adresse, téléphone, et une carte interactive pour faciliter votre visite.";
+        $variables = [
+            'page_title' => $page_title,
+            'meta' => $meta
+        ];
+        $this->render('front/contact', $variables);
     }
 
-    public function download()
-    {
+    public function download() {
         new Download($this->article, $_GET['id'], 'image3', 'assets/img/');
     }
 }

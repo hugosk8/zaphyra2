@@ -1,6 +1,6 @@
 <?php $title = ' Découvrez les pierres de lithothérapie et comment en prendre soin. Découvrez les différents effets de chaque type de pierre et comment les utiliser pour guérir.'?>
 
-    <section class="page-header" style="background-image: url(<?= URL ?>assets/img/breadcrumb.jpg);">
+    <section class="page-header" style="background-image: url(<?= URL ?>assets/img/breadcrumb.webp);">
             <div class="container">
                 <h2>Les Pierres</h2>
             </div><!-- /.container -->
@@ -29,7 +29,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-agate.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-agate.webp"
                                                     alt="Pierre Agate">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -64,7 +64,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-agate-botswana.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-agate-botswana.webp"
                                                     alt="Pierre Agate Botswana">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -97,7 +97,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-agathe-de-feu.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-agathe-de-feu.webp"
                                                     alt="Pierre Agate de feu">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -130,7 +130,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-agate-mousse.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-agate-mousse.webp"
                                                     alt="Pierre Agate mousse">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -164,7 +164,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-aigue-marine.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-aigue-marine.webp"
                                                     alt="Pierre Aigue-marine">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -198,7 +198,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-amazonite.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-amazonite.webp"
                                                     alt="Pierre Amazonite">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -234,7 +234,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-ambre.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-ambre.webp"
                                                     alt="Pierre Ambre">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -267,7 +267,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-amethyste.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-amethyste.webp"
                                                     alt="Pierre Améthyste">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -304,7 +304,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-ametrine.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-ametrine.webp"
                                                     alt="Pierre Amétrine">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -337,7 +337,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-aventurine.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-aventurine.webp"
                                                     alt="Pierre Aventurine">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -371,7 +371,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-cacoxenite.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-cacoxenite.webp"
                                                     alt="Pierre Cacoxénite">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -404,7 +404,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-calcedoine-bleue.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-calcedoine-bleue.webp"
                                                     alt="Pierre Calcédoine bleue">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -438,7 +438,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-calcite-orange.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-calcite-orange.webp"
                                                     alt="Pierre Calcite orange">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -470,7 +470,7 @@
                                     <div class="col-lg-5  animated fadeInLeft" data-wow-duration="1500ms" id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="assets/images/zaphyra/pierres/visuel-calcite-orange.gif"
+                                                <img src="assets/images/zaphyra/pierres/visuel-calcite-orange.webp"
                                                     alt="Pierre Charoïte">
                                             </div>
                                         </div>
@@ -508,7 +508,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-chrysocolle.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-chrysocolle.webp"
                                                     alt="Pierre Chrysocolle">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -540,7 +540,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-chrysoprase.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-chrysoprase.webp"
                                                     alt="Pierre Chrysoprase">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -573,7 +573,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-citrine-chauffee.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-citrine-chauffee.webp"
                                                     alt="Pierre Citrine chauffée">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -606,7 +606,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-citrine-naturelle.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-citrine-naturelle.webp"
                                                     alt="Pierre Citrine naturelle">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -639,7 +639,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-cornaline.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-cornaline.webp"
                                                     alt="Pierre Cornaline">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -672,7 +672,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-bitermines-de-chine.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-bitermines-de-chine.webp"
                                                     alt="Pierre Cristal biterminés de Chine">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -706,7 +706,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-cristal.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-cristal.webp"
                                                     alt="Pierre Cristal de roche">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -740,7 +740,7 @@
                                     <div class="col-lg-5  animated fadeInLeft" data-wow-duration="1500ms" id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="assets/images/zaphyra/pierres/visuel-cristal.gif"
+                                                <img src="assets/images/zaphyra/pierres/visuel-cristal.webp"
                                                     alt="Pierre Cristal fumé">
                                             </div>
                                         </div>
@@ -772,7 +772,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-herkimer.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-herkimer.webp"
                                                     alt="Diamant Herkimer">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -805,7 +805,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-epidote.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-epidote.webp"
                                                     alt="Epidote">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -841,7 +841,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-fluorine.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-fluorine.webp"
                                                     alt="Fluorine">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -876,7 +876,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-girasol.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-girasol.webp"
                                                     alt="Girasol">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -909,7 +909,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-grenat.gif" alt="Grenat">
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-grenat.webp" alt="Grenat">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
                                     </div><!-- /.col-lg-5 -->
@@ -941,7 +941,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-hematite.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-hematite.webp"
                                                     alt="Hématite">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -976,7 +976,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-howlite.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-howlite.webp"
                                                     alt="Howlite">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -1009,7 +1009,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-jade.gif" alt="Jade">
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-jade.webp" alt="Jade">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
                                     </div><!-- /.col-lg-5 -->
@@ -1040,7 +1040,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-jaspe-brun.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-jaspe-brun.webp"
                                                     alt="Jaspe brun">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -1072,7 +1072,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-jaspe-rouge.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-jaspe-rouge.webp"
                                                     alt="Jaspe rouge">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -1104,7 +1104,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-labradorite.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-labradorite.webp"
                                                     alt="Labradorite">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -1138,7 +1138,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-lapis-lazuli.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-lapis-lazuli.webp"
                                                     alt="Lapis lazuli">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -1172,7 +1172,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-malachite.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-malachite.webp"
                                                     alt="Malachite">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -1207,7 +1207,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-manganocalcite.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-manganocalcite.webp"
                                                     alt="Manganocalcite">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -1240,7 +1240,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-obsidienne-neige.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-obsidienne-neige.webp"
                                                     alt="Obsidienne neige">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -1273,7 +1273,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-obsidienne-oeil-celeste.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-obsidienne-oeil-celeste.webp"
                                                     alt="Obsidienne œil céleste">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -1307,7 +1307,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-oeil-de-faucon.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-oeil-de-faucon.webp"
                                                     alt="Oeil de faucon">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -1340,7 +1340,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-oeil-de-taureau.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-oeil-de-taureau.webp"
                                                     alt="Oeil de taureau">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -1374,7 +1374,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-oeil-tigre.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-oeil-tigre.webp"
                                                     alt="Oeil de tigre">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -1409,7 +1409,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-pierre-lune.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-pierre-lune.webp"
                                                     alt="Pierre de lune">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -1444,7 +1444,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-pierre-lune.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-pierre-lune.webp"
                                                     alt="Pierre de lune (à reflets bleus)">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -1479,7 +1479,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-pierre-soleil.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-pierre-soleil.webp"
                                                     alt="Pierre de soleil">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -1512,7 +1512,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-pietersite.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-pietersite.webp"
                                                     alt="Pietersite">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -1548,7 +1548,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-quartz-rose.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-quartz-rose.webp"
                                                     alt="Quartz rose">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -1581,7 +1581,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="a<?= URL ?>assets/img/ressources/visuel-quartz-rutile.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-quartz-rutile.webp"
                                                     alt="Quartz rutile">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -1615,7 +1615,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-quartz-tourmaline.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-quartz-tourmaline.webp"
                                                     alt="Quartz tourmaline">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -1649,7 +1649,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-rhodocrosite.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-rhodocrosite.webp"
                                                     alt="Rhodocrosite">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -1682,7 +1682,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-rhodonite.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-rhodonite.webp"
                                                     alt="Rhodonite">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -1715,7 +1715,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-sodalite.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-sodalite.webp"
                                                     alt="Sodalite">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -1749,7 +1749,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-sugilite.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-sugilite.webp"
                                                     alt="Sugilite">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -1781,7 +1781,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-topaze-bleue.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-topaze-bleue.webp"
                                                     alt="Topaze bleue">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -1815,7 +1815,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-topaze-imperiale.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-topaze-imperiale.webp"
                                                     alt="Topaze impériale">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->
@@ -1849,7 +1849,7 @@
                                         id="col-lg-5-photoPierres">
                                         <div class="event-two__image">
                                             <div class="event-two__image-inner">
-                                                <img src="<?= URL ?>assets/img/ressources/visuel-tourmaline-noire.gif"
+                                                <img src="<?= URL ?>assets/img/ressources/visuel-tourmaline-noire.webp"
                                                     alt="Tourmaline noire">
                                             </div><!-- /.event-two__image-inner -->
                                         </div><!-- /.event-two__image -->

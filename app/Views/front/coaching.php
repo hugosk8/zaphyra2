@@ -1,3 +1,7 @@
+<!-- <?php 
+    $title = "Réussir votre développement personnel avec un coach de vie";
+    $meta = "Transformez votre existence  avec l'aide d'un coach de vie. Retrouvez l'énergie, l'équilibre, la réussite professionnelle ou personnelle chez Zaphyra";
+?> -->
 <section class="banner-section banner-section__home-two">
     <div class="banner-carousel thm__owl-carousel owl-theme owl-carousel" data-options='{"loop": true, "items": 1, "margin": 0, "dots": false, "nav": true, "animateOut": "fadeOut", "animateIn": "fadeIn", "active": true, "smartSpeed": 1000, "autoplay": true, "autoplayTimeout": 6000, "autoplayHoverPause": false}'>
         <!-- Slide Item -->

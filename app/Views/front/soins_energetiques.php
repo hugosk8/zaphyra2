@@ -2,7 +2,7 @@
     <div class="banner-carousel thm__owl-carousel owl-theme owl-carousel" data-options='{"loop": true, "items": 1, "margin": 0, "dots": false, "nav": true, "animateOut": "fadeOut", "animateIn": "fadeIn", "active": true, "smartSpeed": 1000, "autoplay": true, "autoplayTimeout": 6000, "autoplayHoverPause": false}'>
         <!-- Slide Item -->
         <div class="slide-item">
-            <div class="image-layer lazy-image" style="background-image: url('<?= URL ?>assets/img/soins_energetiques/soins_energetique_banner.jpeg');"></div>
+            <div class="image-layer lazy-image" style="background-image: url('<?= URL ?>assets/img/soins_energetiques/soins_energetiques_banner.webp');"></div>
             <div class="container">
                 <div class="content-box text-center">
                     <h3 class="text-shadow">Soins énergétiques</h3>
@@ -80,7 +80,6 @@
 </section><!-- /.history-one -->
 
 <section class="event-two prevent-footer">
-    <img src="assets/images/shapes/event-sculpture-2-1.png" class="event-two__sculpture" alt="">
     <div class="container">
         <div class="block-title-two text-center mb-4">
             <h3>Retrouvez l’équilibre avec le soin Réiki</h3>

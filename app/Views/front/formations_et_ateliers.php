@@ -2,7 +2,7 @@
     <div class="banner-carousel thm__owl-carousel owl-theme owl-carousel" data-options='{"loop": true, "items": 1, "margin": 0, "dots": false, "nav": true, "animateOut": "fadeOut", "animateIn": "fadeIn", "active": true, "smartSpeed": 1000, "autoplay": true, "autoplayTimeout": 6000, "autoplayHoverPause": false}'>
         <!-- Slide Item -->
         <div class="slide-item">
-            <div class="image-layer lazy-image" style="background-image: url('<?= URL ?>assets/img/formations_et_ateliers/formations_et_ateliers_banner.jpg');"></div>
+            <div class="image-layer lazy-image" style="background-image: url('<?= URL ?>assets/img/formations_et_ateliers/formations_et_ateliers_banner.webp');"></div>
             <div class="container">
                 <div class="content-box text-center">
                     <h3>Formations et ateliers</h3>
@@ -66,7 +66,6 @@
 </section><!-- /.history-one -->
 
 <section class="event-two prevent-footer">
-    <img src="assets/images/shapes/event-sculpture-2-1.png" class="event-two__sculpture" alt="">
     <div class="container">
         <div class="block-title-two text-center mb-4">
             <h3>Formations en lithothérapie</h3>
@@ -102,7 +101,6 @@
 </section><!-- /.event-two -->
 
 <section class="event-two prevent-footer">
-    <img src="assets/images/shapes/event-sculpture-2-1.png" class="event-two__sculpture" alt="">
     <div class="container">
         <div class="block-title-two text-center mb-4">
             <h3>Ateliers de radiesthésie</h3>
@@ -136,7 +134,6 @@
 </section><!-- /.event-two -->
 
 <section class="event-one prevent-footer">
-    <img src="assets/images/shapes/event-sculpture-1-1.png" alt="" class="event-one__moc">
     <div class="container">
         <div class="block-title-two text-center mb-4">
             <h3 class="mb-3">Stages d’intuition et de voyance</h3>
@@ -147,11 +144,11 @@
             <div class="col-lg-12">
                 <div class="event-one__single">
                     <div class="event-one__content">
-                        <h3><a href="event-details.html">Éveillez votre intuition par le tarot</a></h3>
+                        <h3><a href="<?= URL ?>intuition_et_symbolique_par_le_tarot">Éveillez votre intuition par le tarot</a></h3>
                         <p>Pendant les deux jours de l’atelier de voyance par le tarot, vous serez accompagné par un oracle qui vous enseignera les tirages et les significations du tarot. Vous pourrez ensuite passer à des exercices pratiques avec les participants et ainsi développer la conscience de vos intuitions.</p>
                     </div><!-- /.event-one__content -->
                     <div class="event-one__btn-block">
-                        <a href="event-details.html" class="thm-btn event-one__btn">En savoir plus</a>
+                        <a href="<?= URL ?>intuition_et_symbolique_par_le_tarot" class="thm-btn event-one__btn">En savoir plus</a>
                     </div><!-- /.event-one__btn-block -->
                 </div><!-- /.event-one__single -->
             </div><!-- /.col-lg-12 -->
@@ -159,11 +156,11 @@
             <div class="col-lg-12">
                 <div class="event-one__single">
                     <div class="event-one__content">
-                        <h3><a href="event-details.html">Éveillez votre intuition par la numérologie</a></h3>
+                        <h3><a href="<?= URL ?>soin_aurique">Éveillez votre intuition par la numérologie</a></h3>
                         <p>Le principe de ce stage est le même : utiliser un véhicule, ici la numérologie, pour prendre conscience de vos forces d’intuition. Ici, le calcul est roi et les nombres ont chacun des significations qui vous seront expliquées pendant les deux jours de l’atelier. Vous comprendrez comment calculer son chemin de vie et voir affleurer à votre conscience des compétences nouvelles.</p>
                     </div><!-- /.event-one__content -->
                     <div class="event-one__btn-block">
-                        <a href="event-details.html" class="thm-btn event-one__btn">En savoir plus</a>
+                        <a href="<?= URL ?>soin_aurique" class="thm-btn event-one__btn">En savoir plus</a>
                     </div><!-- /.event-one__btn-block -->
                 </div><!-- /.event-one__single -->
             </div><!-- /.col-lg-12 -->

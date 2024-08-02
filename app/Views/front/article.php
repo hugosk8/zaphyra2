@@ -1,5 +1,5 @@
 <?php $title = 'test'?>
-<section class="page-header" style="background-image: url(<?= URL ?>assets/img/breadcrumb.jpg);">
+<section class="page-header" style="background-image: url(<?= URL ?>assets/img/breadcrumb.webp);">
     <div class="container">
         <h2><?= $article->name ?></h2>
     </div><!-- /.container -->

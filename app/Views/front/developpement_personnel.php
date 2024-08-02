@@ -16,7 +16,6 @@
 <!-- end banner section -->
 
 <section class="event-two prevent-footer">
-    <img src="assets/images/shapes/event-sculpture-2-1.png" class="event-two__sculpture" alt="">
     <div class="container">
         <div class="block-title-two text-center mb-4">
             <h3>La découverte de soi : surmontez ce qui vous limite</h3>
@@ -48,7 +47,6 @@
 </section><!-- /.event-two -->
 
 <section class="event-two prevent-footer">
-    <img src="assets/images/shapes/event-sculpture-2-1.png" class="event-two__sculpture" alt="">
     <div class="container">
         <div class="block-title-two text-center mb-4">
             <h3>Le chemin du chevalier : trouvez le courage qui est en vous</h3>
@@ -82,7 +80,6 @@
 </section><!-- /.event-two -->
 
 <section class="event-two prevent-footer">
-    <img src="assets/images/shapes/event-sculpture-2-1.png" class="event-two__sculpture" alt="">
     <div class="container">
         <div class="block-title-two text-center mb-4">
             <h3>La voie du Pèlerin : sortez du labyrinthe où votre vie est prisonnière</h3>
@@ -114,7 +111,6 @@
 </section><!-- /.event-two -->
 
 <section class="event-two prevent-footer">
-    <img src="assets/images/shapes/event-sculpture-2-1.png" class="event-two__sculpture" alt="">
     <div class="container">
         <div class="block-title-two text-center mb-4">
             <h3>La voie des sens : reconnectez-vous à vos cinq sens</h3>

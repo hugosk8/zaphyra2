@@ -1,4 +1,4 @@
-        <section class="page-header" style="background-image: url(<?= URL ?>assets/img/breadcrumb.jpg);">
+        <section class="page-header" style="background-image: url(<?= URL ?>assets/img/breadcrumb.webp);">
             <div class="container">
                 <h2>ÉVÈNEMENTS</h2>
             </div><!-- /.container -->

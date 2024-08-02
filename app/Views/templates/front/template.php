@@ -23,13 +23,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="à venir">
-    <title>Zaphyra : <?= ($title) ? $title : '' ?></title>
+    <meta name="description" content="<?= ($meta) ? $meta : '' ?>">
+    <title>Zaphyra | <?= ($page_title) ? $page_title : '' ?></title>
 
     <!-- favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="<? URL ?>assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<? URL ?>assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<? URL ?>assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="<?= URL ?>assets/favicon/site.webmanifest">
 
     <?php /*
     <!-- Fonts URL -->
@@ -37,21 +38,21 @@
     */ ?>
     
     <!-- Plugins CSS -->
-    <link rel="stylesheet" href="css/front/bootstrap.min.css">
-    <link rel="stylesheet" href="css/front/bootstrap-datepicker.min.css">
-    <link rel="stylesheet" href="css/front/bootstrap-select.min.css">
-    <link rel="stylesheet" href="css/front/fontawesome-all.min.css">
-    <link rel="stylesheet" href="css/front/jquery.mCustomScrollbar.min.css">
-    <link rel="stylesheet" href="css/front/magnific-popup.css">
-    <link rel="stylesheet" href="css/front/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/front/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/front/animate.css">
-    <link rel="stylesheet" href="css/front/hover-min.css">
-    <link rel="stylesheet" href="css/front/muzex-icons.css">
+    <link rel="stylesheet" href="<?= URL ?>css/front/bootstrap.min.css">
+    <link rel="stylesheet" href="<?= URL ?>css/front/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="<?= URL ?>css/front/bootstrap-select.min.css">
+    <link rel="stylesheet" href="<?= URL ?>css/front/fontawesome-all.min.css">
+    <link rel="stylesheet" href="<?= URL ?>css/front/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="<?= URL ?>css/front/magnific-popup.css">
+    <link rel="stylesheet" href="<?= URL ?>css/front/owl.carousel.min.css">
+    <link rel="stylesheet" href="<?= URL ?>css/front/owl.theme.default.min.css">
+    <link rel="stylesheet" href="<?= URL ?>css/front/animate.css">
+    <link rel="stylesheet" href="<?= URL ?>css/front/hover-min.css">
+    <link rel="stylesheet" href="<?= URL ?>css/front/muzex-icons.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/front/style.css">
-    <link rel="stylesheet" href="css/front/responsive.css">
+    <link rel="stylesheet" href="<?= URL ?>css/front/style.css">
+    <link rel="stylesheet" href="<?= URL ?>css/front/responsive.css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-TZWKVVQP3T"></script>
@@ -65,9 +66,6 @@
 
         gtag('config', 'G-TZWKVVQP3T');
     </script>
-
-
-
 </head>
 
 <body>
@@ -89,7 +87,7 @@
                 </div><!-- /.topbar-one__left -->
                 <div class="topbar-one__right">
                     <!--<a href="#"><i class="far fa-clock"></i> Mon - Sat 9.00 - 18.00</a> LES HORAIRES-->
-                    <a href="#"><i class="fa fa-phone-alt"></i> 03 20 87 20 69</a>
+                    <a href="tel:0320872069"><i class="fa fa-phone-alt"></i> 03 20 87 20 69</a>
                     <!--<a href="#" class="thm-btn topbar__btn">Buy Tickets</a> /.thm-btn -->
                 </div><!-- /.topbar-one__right -->
             </div><!-- /.container -->
@@ -99,8 +97,8 @@
             <div class="container">
                 <div class="inner-container">
                     <div class="logo-box">
-                        <a href="index.php">
-                            <img src="assets/zaphyra/logo190_60.png" alt="logo Zaphyra" width="143">
+                        <a href="<?= URL ?>index">
+                            <img src="<?= URL ?>assets/img/logo/logo190_60.webp" alt="logo Zaphyra" width="143">
                         </a>
                         <a href="#" class="side-menu__toggler"><i class="muzex-icon-menu"></i></a>
                     </div><!-- /.logo-box -->
@@ -218,7 +216,7 @@
                     <div class="inner-container" id="inner-container-footerBas">
                         <div class="site-footer__bottom-links">
                             <a href="www.0001.fr" target="blank">
-                                <img src="assets/LOGOFOOTER2.png" id="logo0001" alt="0001 COMMUNICATION">
+                                <img src="<?= URL ?>assets/img/logo/LOGOFOOTER2.webp" id="logo0001" alt="0001 COMMUNICATION">
                             </a>
                             <a href="https://www.0001.fr/" target="blank">0001.fr </a>
                             <a href="https://www.0001.fr/" target="blank id=" footer2020"> © 2020</a>
@@ -247,8 +245,8 @@
                 <div class="cursor-follower"></div>
             </div><!-- /.side-content__block-overlay -->
             <div class="side-content__block-inner ">
-                <a href="index.html">
-                    <img src="assets/zaphyra/logo190_60.png" alt="logo Zaphyra" width="143">
+                <a href="<?= URL ?>index">
+                    <img src="<?= URL ?>assets/img/logo/logo190_60.webp" alt="logo Zaphyra" width="143">
                 </a>
                 <div class="side-content__block-about">
                     <h3 class="side-content__block__title">À propos de nous</h3><!-- /.side-content__block__title -->
@@ -264,11 +262,11 @@
                         </li><!-- /.side-content__block-contact__list-item -->
                         <li class="side-content__block-contact__list-item">
                             <i class="fa fa-phone"></i>
-                            <a href="contact.html">03 20 87 20 69</a>
+                            <a href="tel:0320872069">03 20 87 20 69</a>
                         </li><!-- /.side-content__block-contact__list-item -->
                         <li class="side-content__block-contact__list-item">
                             <i class="fa fa-envelope"></i>
-                            <a href="contact.html">contact@zaphyra.fr</a>
+                            <a href="mailto:contact@zaphyra.fr">contact@zaphyra.fr</a>
                         </li><!-- /.side-content__block-contact__list-item -->
                         <li class="side-content__block-contact__list-item">
                             <i class="fa fa-clock"></i>
@@ -277,7 +275,7 @@
                         </li><!-- /.side-content__block-contact__list-item -->
                     </ul><!-- /.side-content__block-contact__list -->
                 </div><!-- /.side-content__block-contact -->
-                <p class="side-content__block__text site-footer__copy-text"><a href="index.html">Zaphyra</a> <i class="fa fa-copyright"></i> 2020 Tous droits réservés</p>
+                <p class="side-content__block__text site-footer__copy-text"><a href="<?= URL ?>index">Zaphyra</a> <i class="fa fa-copyright"></i> 2020 Tous droits réservés</p>
             </div><!-- /.side-content__block-inner -->
         </div><!-- /.side-content__block -->
 
@@ -292,7 +290,9 @@
             </div><!-- /.side-menu__block-overlay -->
             <div class="side-menu__block-inner ">
 
-                <a href="index.html" class="side-menu__logo"><img src="assets/zaphyra/logo2.svg" alt="logo Zaphyra" width="143"></a>
+                <a href="<?= URL ?>index" class="side-menu__logo">
+                    <img src="<?= URL ?>assets/img/logo/logo2.svg" alt="logo Zaphyra" width="143">
+                </a>
                 <nav class="mobile-nav__container">
                     <!-- content is loading via js -->
                 </nav>

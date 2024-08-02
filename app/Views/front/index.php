@@ -12,33 +12,8 @@
                     <div class="container">
                         <div class="content-box text-center">
                             <!--<h3>Opening On Sat. Oct 20, 2019</h3>-->
-                            <h2>Épanouir<br><br><br></h2>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Slide Item -->
-                <div class="slide-item">
-                    <div class="image-layer lazy-image"
-                        style="background-image: url('<?= URL ?>assets/img/accueil/slider2.webp');"></div>
-
-                    <div class="container">
-                        <div class="content-box text-center">
-                            <!--<h3>Opening On Sat. Oct 20, 2019</h3>-->
-                            <h2>Orienter<br><br><br></h2>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Slide Item -->
-                <div class="slide-item">
-                    <div class="image-layer lazy-image"
-                        style="background-image: url('<?= URL ?>assets/img/accueil/slider3.webp');"></div>
-
-                    <div class="container">
-                        <div class="content-box text-center">
-                            <!--<h3>Opening On Sat. Oct 20, 2019</h3>-->
-                            <h2>Avancer<br><br><br></h2>
+                            <h2>Zaphyra, votre centre de formation et de bien-être à Lille</h2>
+                            <p class="text-white">Je vous invite chez Zaphyra à retrouver votre « moi » pour vous libérer de vos blocages. Ici vous découvrirez de nombreuses techniques de développement personnel et de ressourcement empruntées aux pratiques ancestrales venues d’Asie. Elles font plus que vous soulager : elles vous remettent dans un chemin de de résilience.</p>
                         </div>
                     </div>
                 </div>
@@ -75,7 +50,7 @@
                                         <i class="muzex-icon-location"></i>
                                     </div><!-- /.cta-two__icon -->
                                     <h3>Adresse</h3>
-                                    <a href="<?= URL ?>contact.php#maps" class="liens-perso">45 Rue d'Artois, 59000 Lille <br></a>
+                                    <a href="<?= URL ?>contact#maps" class="liens-perso">45 Rue d'Artois, 59000 Lille <br></a>
                                 </div><!-- /.cta-two__box -->
                             </div><!-- /.col-lg-4 -->
 
@@ -89,17 +64,18 @@
             <section class="event-one event-one__event-page-2">
                 <div class="container">
                     <div class="row">
+
                         <div class="col-lg-12">
                             <div class="event-one__single">
                                 <div class="event-one__image">
                                     <div class="event-one__image-box">
                                         <div class="event-one__image-inner">
-                                            <img src="<?= URL ?>assets/img/accueil/round-img1.jpg" alt="">
+                                            <img src="<?= URL ?>assets/img/accueil/round-img1.webp" alt="">
                                         </div><!-- /.event-one__image-inner -->
                                     </div><!-- /.event-one__image-box -->
                                 </div><!-- /.event-one__image -->
                                 <div class="event-one__content">
-                                    <h3><a href="event-details.html">Zaphyra, votre centre de formation et de bien-être à Lille</a></h3>
+                                    <h3>Zaphyra, votre centre de formation et de bien-être à Lille</h3>
                                     <p>Je vous invite chez Zaphyra à retrouver votre « moi » pour vous libérer de vos blocages. Ici vous découvrirez de nombreuses techniques de développement personnel et de ressourcement empruntées aux pratiques ancestrales venues d’Asie. Elles font plus que vous soulager : elles vous remettent dans un chemin de de résilience.</p>
                                 </div><!-- /.event-one__content -->
                                 <div class="event-one__btn-block">
@@ -107,17 +83,18 @@
                                 </div><!-- /.event-one__btn-block -->
                             </div><!-- /.event-one__single -->
                         </div><!-- /.col-lg-12 -->
+
                         <div class="col-lg-12">
                             <div class="event-one__single">
                                 <div class="event-one__image">
                                     <div class="event-one__image-box">
                                         <div class="event-one__image-inner">
-                                            <img src="<?= URL ?>assets/img/accueil/round-img2.jpg" alt="">
+                                            <img src="<?= URL ?>assets/img/accueil/round-img2.webp" alt="">
                                         </div><!-- /.event-one__image-inner -->
                                     </div><!-- /.event-one__image-box -->
                                 </div><!-- /.event-one__image -->
                                 <div class="event-one__content">
-                                    <h3><a href="event-details.html">Des sessions de coaching pour retrouver l’équilibre dans votre vie</a></h3>
+                                    <h3><a href="<?= URL ?>coaching">Des sessions de coaching pour retrouver l’équilibre dans votre vie</a></h3>
                                     <p>Avec mon équipe, je vous accompagne dans votre cheminement personnel et vous aide à trouver ou retrouver l’espoir et l’équilibre. Comment lâcher prise et trouver vos propres solutions pour résoudre vos problèmes ? En puisant en vous-mêmes les ressources que vous possédez. De séance en séance, avec votre coach de vie vous parviendrez à franchir les étapes qui vous mèneront à cette libération.</p>
                                 </div><!-- /.event-one__content -->
                                 <div class="event-one__btn-block">
@@ -125,17 +102,18 @@
                                 </div><!-- /.event-one__btn-block -->
                             </div><!-- /.event-one__single -->
                         </div><!-- /.col-lg-12 -->
+
                         <div class="col-lg-12">
                             <div class="event-one__single">
                                 <div class="event-one__image">
                                     <div class="event-one__image-box">
                                         <div class="event-one__image-inner">
-                                            <img src="<?= URL ?>assets/img/accueil/round-img3.jpg" alt="">
+                                            <img src="<?= URL ?>assets/img/accueil/round-img3.webp" alt="">
                                         </div><!-- /.event-one__image-inner -->
                                     </div><!-- /.event-one__image-box -->
                                 </div><!-- /.event-one__image -->
                                 <div class="event-one__content">
-                                    <h3><a href="event-details.html">Dynamisez votre quotidien avec nos soins énergétique</a></h3>
+                                    <h3><a href="<?= URL ?>soins_energetiques">Dynamisez votre quotidien avec nos soins énergétique</a></h3>
                                     <p>Retrouver un dynamisme qui s’étiole sous l’effet du stress et de la fatigue quotidienne, remettre en mouvement l’énergie qui vous habite : les séances proposées chez Zaphyra peuvent être considérées comme des moments de remise en forme ponctuels. Le soin aurique aide à déverrouiller des émotions entravées, le soin reiki vous apporte une détente et une relaxation tout en travaillant à rétablir le flux harmonieux d’énergie en vous.</p>
                                 </div><!-- /.event-one__content -->
                                 <div class="event-one__btn-block">
@@ -143,17 +121,18 @@
                                 </div><!-- /.event-one__btn-block -->
                             </div><!-- /.event-one__single -->
                         </div><!-- /.col-lg-12 -->
+
                         <div class="col-lg-12">
                             <div class="event-one__single">
                                 <div class="event-one__image">
                                     <div class="event-one__image-box">
                                         <div class="event-one__image-inner">
-                                            <img src="<?= URL ?>assets/img/accueil/round-img4.jpg" alt="">
+                                            <img src="<?= URL ?>assets/img/accueil/round-img4.webp" alt="">
                                         </div><!-- /.event-one__image-inner -->
                                     </div><!-- /.event-one__image-box -->
                                 </div><!-- /.event-one__image -->
                                 <div class="event-one__content">
-                                    <h3><a href="event-details.html">Bien-être : nos formations et ateliers</a></h3>
+                                    <h3><a href="<?= URL ?>formations_et_ateliers">Bien-être : nos formations et ateliers</a></h3>
                                     <p>
                                         Lorsqu’on cherche à se sentir mieux dans son corps et dans sa vie, il vient un moment où l’on souhaite maîtriser soi-même les techniques qui mènent au bien-être. C’est pourquoi Zaphyra propose des ateliers au cours desquels vous apprendrez les bases de ces disciplines. 
                                         <br><br>
@@ -165,17 +144,18 @@
                                 </div><!-- /.event-one__btn-block -->
                             </div><!-- /.event-one__single -->
                         </div><!-- /.col-lg-12 -->
+
                         <div class="col-lg-12">
                             <div class="event-one__single">
                                 <div class="event-one__image">
                                     <div class="event-one__image-box">
                                         <div class="event-one__image-inner">
-                                            <img src="<?= URL ?>assets/img/accueil/round-img5.jpg" alt="">
+                                            <img src="<?= URL ?>assets/img/accueil/round-img5.webp" alt="">
                                         </div><!-- /.event-one__image-inner -->
                                     </div><!-- /.event-one__image-box -->
                                 </div><!-- /.event-one__image -->
                                 <div class="event-one__content">
-                                    <h3><a href="event-details.html">Aller plus loin dans le développement personnel</a></h3>
+                                    <h3><a href="<?= URL ?>developpement_personnel">Aller plus loin dans le développement personnel</a></h3>
                                     <p>
                                         Connaissez-vous l’art thérapie ? C’est un moyen incroyablement efficace pour aller à la rencontre de soi-même et découvrir ce qui nous limite. D’autres pratiques permettent de faire sortir de leur gangue les forces cachées dont vous disposez ou de briser le cycle infernal des situations qui se répètent dans votre existence.
                                         <br><br>
@@ -223,7 +203,7 @@
         </section><!-- /.exhibition-one -->
 
 
-        <section class="collection-one" style="background-image: url(assets/shapes/collection-bg-1-1.jpg);">
+        <section class="collection-one" style="background-image: url(<?= URL ?>assets/img/accueil/collection-bg.webp);">
             <div class="container">
                 <div class="collection-one__top">
                     <div class="block-title">
@@ -233,17 +213,17 @@
             </div><!-- /.container -->
 
             <div class="collection-one__carousel thm__owl-carousel owl-theme owl-carousel" data-options='{
-        "loop": true, "autoplay": true, "autoplayTimeout": 5000, "autoplayHoverPause": true, "smartSpeed": 700, "items": 3, "margin": 100, "dots": false, "nav": false, "responsive": { 
-            "0": { "items": 1, "margin": 0 },
-            "625": { "items": 2, "margin": 30 },
-            "767": { "items": 2, "margin": 30 },
-            "991": { "items": 2, "margin": 30},  "1199": { "margin": 30, "items": 3}, "1366": { "margin": 50, "items": 3 }, "1440": { "margin": 50, "items": 3 }, "1750": { "items": 3, "margin": 70 }, "1920": { "items": 3, "margin": 100 } }
-    }'>
+                "loop": true, "autoplay": true, "autoplayTimeout": 5000, "autoplayHoverPause": true, "smartSpeed": 700, "items": 3, "margin": 100, "dots": false, "nav": false, "responsive": { 
+                    "0": { "items": 1, "margin": 0 },
+                    "625": { "items": 2, "margin": 30 },
+                    "767": { "items": 2, "margin": 30 },
+                    "991": { "items": 2, "margin": 30},  "1199": { "margin": 30, "items": 3}, "1366": { "margin": 50, "items": 3 }, "1440": { "margin": 50, "items": 3 }, "1750": { "items": 3, "margin": 70 }, "1920": { "items": 3, "margin": 100 } }
+            }'>
                 <div class="item">
                     <div class="collection-one__single">
                         <img src="assets/img/accueil/carrousel1.webp" alt=" photo coaching">
                         <div class="collection-one__content">
-                            <h2><a href="#">Coaching</a></h2>
+                            <h2><a href="<?= URL ?>coaching">Coaching</a></h2>
                         </div><!-- /.collection-one__content -->
                     </div><!-- /.collection-one__single -->
                 </div><!-- /.item -->
@@ -251,7 +231,7 @@
                     <div class="collection-one__single">
                         <img src="assets/img/accueil/carrousel2.webp" alt="photo soin énergétique">
                         <div class="collection-one__content">
-                            <h2><a href="#">Soin énergétique</a></h2>
+                            <h2><a href="<?= URL ?>soins_energetiques">Soin énergétique</a></h2>
                         </div><!-- /.collection-one__content -->
                     </div><!-- /.collection-one__single -->
                 </div><!-- /.item -->
@@ -259,7 +239,7 @@
                     <div class="collection-one__single">
                         <img src="assets/img/accueil/carrousel3.webp" alt=" photo bien être">
                         <div class="collection-one__content">
-                            <h2><a href="#">Bien-être</a></h2>
+                            <h2><a href="<?= URL ?>developpement_personnel">Bien-être</a></h2>
                         </div><!-- /.collection-one__content -->
                     </div><!-- /.collection-one__single -->
                 </div><!-- /.item -->
@@ -267,7 +247,7 @@
                     <div class="collection-one__single">
                         <img src="assets/img/accueil/carrousel4.webp" alt="photo développement personnel">
                         <div class="collection-one__content">
-                            <h2><a href="#">Développement personnel</a></h2>
+                            <h2><a href="<?= URL ?>developpement_personnel">Développement personnel</a></h2>
                         </div><!-- /.collection-one__content -->
                     </div><!-- /.collection-one__single -->
                 </div><!-- /.item -->
@@ -292,7 +272,7 @@
                     <div class="col-lg-4">
                         <div class="blog-one__single">
                             <div class="blog-one__image">
-                                <img src="assets/img/accueil/les_chakras.jpg" alt="">
+                                <img src="assets/img/accueil/les_chakras.webp" alt="">
                             </div><!-- /.blog-one__image -->
                             <div class="blog-one__content">
                                 <h3><a href="<?= URL ?>les_chakras">Les chakras</a></h3>
@@ -305,7 +285,7 @@
                     <div class="col-lg-4">
                         <div class="blog-one__single">
                             <div class="blog-one__image">
-                                <img src="assets/img/accueil/les_couleurs.jpg" alt="">
+                                <img src="assets/img/accueil/les_couleurs.webp" alt="">
                             </div><!-- /.blog-one__image -->
                             <div class="blog-one__content">
                                 <h3><a href="<?= URL ?>les_couleurs">Les couleurs</a></h3>
@@ -318,7 +298,7 @@
                     <div class="col-lg-4">
                         <div class="blog-one__single">
                             <div class="blog-one__image">
-                                <img src="assets/img/accueil/les_pierres.jpg" alt="">
+                                <img src="assets/img/accueil/les_pierres.webp" alt="">
                             </div><!-- /.blog-one__image -->
                             <div class="blog-one__content">
                                 <h3><a href="<?= URL ?>les_pierres">Les pierres</a></h3>
