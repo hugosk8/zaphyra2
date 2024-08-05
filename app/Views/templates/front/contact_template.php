@@ -163,51 +163,6 @@
 
         <?= $content ?>
 
-        <div class="contact-one prevent-footer" id="template-form" style="background-color: #f5f7fa;">
-            <div class="container">
-                <div class="block-title-two text-center pt-3" id="titleContact">
-                    <p>Contact</p>
-                </div><!-- /.block-title-two -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <form method="post" action="<?= URL ?>Mail/Mailer" class="contact-one__form" onsubmit="aler('Le message est envoyé avec succès !')">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <input type="hidden" name="token_response" id="token_response">
-                                    <input name="name" type="text" placeholder="Nom / Prénom*" required>
-                                </div><!-- /.col-lg-6 -->
-                                <div class="col-lg-6">
-                                    <input name="email" type="text" placeholder="Email*" required>
-                                </div><!-- /.col-lg-6 -->
-                                <div class="col-lg-6">
-                                    <input name="phone" type="text" placeholder="Téléphone">
-                                </div><!-- /.col-lg-6 -->
-                                <div class="col-lg-6">
-                                    <input name="subject" type="text" placeholder="Sujet">
-                                </div><!-- /.col-lg-6 -->
-                                <div class="col-lg-12">
-                                    <textarea name="message" placeholder="Votre message"></textarea>
-                                </div><!-- /.col-lg-12 -->
-                                <div class="col-lg-12">
-                                    <button class="thm-btn contact-one__btn" type="submit">Envoyer</button>
-                                </div><!-- /.col-lg-12 -->
-                            </div><!-- /.row -->
-                        </form><!-- /.contact-one__form -->
-                        <?php if(isset($_SESSION["MailStatus"]) && $_SESSION["MailStatus"] = true) { ?>
-                        <div class="alert alert-success">
-                            Votre mail a bien été envoyé
-                        </div>
-                        <?php } ?>
-                        <?php if(isset($_SESSION["MailStatus"]) && $_SESSION["MailStatus"] = false) { ?>
-                        <div class="alert alert-danger">
-                            Une erreur s'est produite
-                        </div>
-                        <?php } ?>
-                    </div><!-- /.col-lg-8 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </div><!-- /.contact-one -->
-
         <footer class="site-footer">
             <div class="site-footer__upper">
                 <div class="container">
@@ -261,7 +216,7 @@
                     <div class="inner-container" id="inner-container-footerBas">
                         <div class="site-footer__bottom-links">
                             <a href="www.0001.fr" target="blank">
-                                <img src="<?= URL ?>assets/img/logo/LOGOFOOTER2.webp" id="logo0001" alt="0001 COMMUNICATION">
+                                <img src="<?= URL ?>assets/img/logo/LOGOFOOTER2.webp" id="logo0001" alt="logo 0001 COMMUNICATION">
                             </a>
                             <a href="https://www.0001.fr/" target="blank">0001.fr </a>
                             <a href="https://www.0001.fr/" target="blank id=" footer2020"> © 2020</a>

@@ -1,4 +1,3 @@
-<?php $title = 'Contactez-nous sur notre formulaire de contact ou par téléphone' ?>
 <section class="page-header" style="background-image: url(<?= URL ?>assets/img/breadcrumb.webp);">
     <div class="container">
         <h2>CONTACT</h2>
@@ -19,7 +18,7 @@
     });
 </script>
 
-<div class="contact-one" style="background-color: #f5f7fa;">
+<div class="contact-one prevent-footer" style="background-color: #f5f7fa;">
     <div class="container">
         <div class="block-title-two text-center" id="titleContact">
             <p>Contact</p>
@@ -93,12 +92,8 @@
     </div><!-- /.container -->
 </div><!-- /.contact-one -->
 
-<div class="contact-map-one" id="maps" style="background-color: #f5f7fa;">
+<div class="contact-map-one prevent-footer" id="maps" style="background-color: #f5f7fa;">
     <div class="container">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2531.185394864677!2d3.059226915900805!3d50.6236726827489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d599fff4c1fd%3A0x7c99b6335cc502c8!2sZaphyra!5e0!3m2!1sfr!2sfr!4v1600805857144!5m2!1sfr!2sfr&zoom=10" class="google-map__contact" allowfullscreen></iframe>
-
     </div><!-- /.container -->
 </div><!-- /.contact-map-one -->
-
-
-</div><!-- /.page-wrapper -->

@@ -24,7 +24,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="history-one__image wow fadeInLeft text-center" data-wow-duration="1500ms">
-                        <img src="<?= URL ?>assets/img/soins_energetiques/soins1.webp" alt="">
+                        <img src="<?= URL ?>assets/img/soins_energetiques/soins1.webp" alt="Femme allongée sur le dos devant une silhouette bleu clair">
                     </div><!-- /.history-one__image -->
                 </div><!-- /.col-lg-6 -->
                 <div class="col-lg-6 d-flex">
@@ -38,7 +38,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="history-one__image wow fadeInRight" data-wow-duration="1500ms">
-                        <img src="<?= URL ?>assets/img/soins_energetiques/soins2.webp" alt="">
+                        <img src="<?= URL ?>assets/img/soins_energetiques/soins2.webp" alt="homme de coté avec une lumiere au milieu du crane">
                     </div><!-- /.history-one__image -->
                 </div><!-- /.col-lg-6 -->
                 <div class="col-lg-6 d-flex">
@@ -52,7 +52,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="history-one__image wow fadeInLeft text-center" data-wow-duration="1500ms">
-                        <img src="<?= URL ?>assets/img/soins_energetiques/soins3.webp" alt="">
+                        <img src="<?= URL ?>assets/img/soins_energetiques/soins3.webp" alt="femme de coté avec les points d'energie de son corps representés par des points bleu">
                     </div><!-- /.history-one__image -->
                 </div><!-- /.col-lg-6 -->
                 <div class="col-lg-6 d-flex">
@@ -66,7 +66,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="history-one__image wow fadeInRight text-center" data-wow-duration="1500ms">
-                        <img src="<?= URL ?>assets/img/soins_energetiques/soins4.webp" alt="">
+                        <img src="<?= URL ?>assets/img/soins_energetiques/soins4.webp" alt="Femme allongée sur le dos devant une autre femme avec une baguette">
                     </div><!-- /.history-one__image -->
                 </div><!-- /.col-lg-6 -->
                 <div class="col-lg-6 d-flex">
@@ -90,7 +90,7 @@
                 <div class="col-lg-5 wow fadeInLeft" data-wow-duration="1500ms">
                     <div class="event-two__image">
                         <div class="event-two__image-inner">
-                        <img src="<?= URL ?>assets/img/soins_energetiques/soins5.webp" alt="">
+                        <img src="<?= URL ?>assets/img/soins_energetiques/soins5.webp" alt="Homme assis de face avec les points d'energie de son corps representés par des lumieres">
                         </div><!-- /.event-two__image-inner -->
                     </div><!-- /.event-two__image -->
                 </div><!-- /.col-lg-5 -->
@@ -109,7 +109,7 @@
                 <div class="col-lg-5 wow fadeInLeft" data-wow-duration="1500ms">
                     <div class="event-two__image">
                         <div class="event-two__image-inner">
-                            <img src="<?= URL ?>assets/img/soins_energetiques/soins6.webp" alt="">
+                            <img src="<?= URL ?>assets/img/soins_energetiques/soins6.webp" alt="Homme allongé sur le dos devant un autre homme le massant">
                         </div><!-- /.event-two__image-inner -->
                     </div><!-- /.event-two__image -->
                 </div><!-- /.col-lg-5 -->
@@ -128,7 +128,7 @@
                 <div class="col-lg-5 wow fadeInLeft" data-wow-duration="1500ms">
                     <div class="event-two__image">
                         <div class="event-two__image-inner">
-                        <img src="<?= URL ?>assets/img/soins_energetiques/soins7.webp" alt="">
+                        <img src="<?= URL ?>assets/img/soins_energetiques/soins7.webp" alt="Famme allongée sur le dos avec une personne lui touchant le torse, ce qui produit une lumiere">
                         </div><!-- /.event-two__image-inner -->
                     </div><!-- /.event-two__image -->
                 </div><!-- /.col-lg-5 -->

@@ -108,13 +108,15 @@ class IndexController extends AppController
                 Les niveaux énergétique et émotionnel sont visés par le soin. Outre l’intervention pour alléger la tension, cela permet la mise en lumière – et en conscience – des blocages engendrés dans notre fonctionnement quotidien. Le choix devient alors possible de changer certains comportements pour obtenir des résultats différents, plus en adéquation avec la personne que nous sommes réellement aujourd’hui.
         ';
         $image = '/soin_aurique.webp';
+        $alt = "Boudha face à la mer";
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
             'description' => $description,
             'image' => $image,
             'page_title' => $title,
-            'meta' => $meta
+            'meta' => $meta,
+            'alt' => $alt
         ];
         $this->render('front/single_prestation', $variables);
     }
@@ -132,13 +134,15 @@ class IndexController extends AppController
                 Grâce au soutien du coach, une prise de recul et une ouverture deviennent possible afin de tendre vers la compréhension des interactions avec le monde extérieur et des freins intérieurs à la réussite. Une implication sur le long terme permet d’atteindre ses objectifs et bien souvent de les modifier suite à des prises de conscience de nos réelles envies.
         ';
         $image = '/coaching_de_vie.webp';
+        $alt = "Deux femmes discutant ensemble avec le sourire";
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
             'description' => $description,
             'image' => $image,
             'page_title' => $title,
-            'meta' => $meta
+            'meta' => $meta,
+            'alt' => $alt
         ];
         $this->render('front/single_prestation', $variables);
     }
@@ -154,13 +158,15 @@ class IndexController extends AppController
                 Le réiki est une énergie douce qui pourra, au fil de séances régulières, renforcer notre énergie individuelle et réveiller les capacités de guérison intrinsèques à chacun, en cas de besoin. Le praticien n’interfère par aucune intention particulière mais laisse plutôt le réiki interagir avec notre énergie. Le ressenti intuitif de points de blocage pourra toutefois l’amener à insister sur certaines zones. Un moment d’échange suit généralement la séance, permettant de recueillir les ressentis respectifs.
         ';
         $image = '/soins_reiki.webp';
+        $alt = "Femme allongée sur le dos recevant un soin reiki";
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
             'description' => $description,
             'image' => $image,
             'page_title' => $title,
-            'meta' => $meta
+            'meta' => $meta,
+            'alt' => $alt
         ];
         $this->render('front/single_prestation', $variables);
     }
@@ -180,13 +186,15 @@ class IndexController extends AppController
                 Au travers de multiples exercices basés notamment sur l’art-thérapie, ce stage encourage votre créativité afin de partir à la rencontre de vous-mêmes pour vous redécouvrir sous un jour nouveau. La prise de conscience des entraves qui vous freinent vous offrira l’opportunité de les écarter, afin de progresser vers votre pleine réalisation et celle de vos rêves.
         ';
         $image = '/decouverte_de_soi.webp';
+        $alt = "Homme assis sur la plage face au coucher de soleil";
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
             'description' => $description,
             'image' => $image,
             'page_title' => $title,
-            'meta' => $meta
+            'meta' => $meta,
+            'alt' => $alt
         ];
         $this->render('front/single_prestation', $variables);
     }
@@ -215,13 +223,15 @@ class IndexController extends AppController
                 Renouer avec vos émotions parfois enfouies et limitantes, comprendre la nécessité de vos idéaux et la fragilité de vos certitudes sont autant d’étapes qui vous conduiront au Chevalier qui sommeille en vous !
         ';
         $image = '/chemin_du_chevalier.webp';
+        $alt = "Peinture d'un chevailer sur son cheval";
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
             'description' => $description,
             'image' => $image,
             'page_title' => $title,
-            'meta' => $meta
+            'meta' => $meta,
+            'alt' => $alt
         ];
         $this->render('front/single_prestation', $variables);
     }
@@ -241,13 +251,15 @@ class IndexController extends AppController
                 C’est ce que vous offre la voie du Pèlerin : la possibilité de mettre en lumière vos réflexes de fonctionnement, votre manière d’appréhender la vie et d’interagir avec les autres. Une fois ces clés identifiées, vous aurez la possibilité de transcender vos mises en place, pour sortir du labyrinthe et avancer enfin sur la voie que vous souhaitez.
         ';
         $image = '/voie_du_pelerin.webp';
+        $alt = "Deux pèlerins en train de marcher dans la montagne";
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
             'description' => $description,
             'image' => $image,
             'page_title' => $title,
-            'meta' => $meta
+            'meta' => $meta,
+            'alt' => $alt
         ];
         $this->render('front/single_prestation', $variables);
     }
@@ -269,13 +281,15 @@ class IndexController extends AppController
                 Oser vivre, quelle bonne idée !
         ';
         $image = '/voie_des_sens.webp';
+        $alt = "famille au camping face a un lac";
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
             'description' => $description,
             'image' => $image,
             'page_title' => $title,
-            'meta' => $meta
+            'meta' => $meta,
+            'alt' => $alt
         ];
         $this->render('front/single_prestation', $variables);
     }
@@ -326,13 +340,15 @@ class IndexController extends AppController
                 </ul>
         ';
         $image = '/initiation_au_reiki.webp';
+        $alt = "Dessins de Deux personnes de face dans des couleurs psychédélique";
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
             'description' => $description,
             'image' => $image,
             'page_title' => $title,
-            'meta' => $meta
+            'meta' => $meta,
+            'alt' => $alt
         ];
         $this->render('front/single_prestation', $variables);
     }
@@ -352,13 +368,15 @@ class IndexController extends AppController
                 Être à l’écoute de soi et de sa vérité est une clé essentielle de la réussite !
         ';
         $image = '/tarot.webp';
+        $alt = "Cartes de tarot";
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
             'description' => $description,
             'image' => $image,
             'page_title' => $title,
-            'meta' => $meta
+            'meta' => $meta,
+            'alt' => $alt
         ];
         $this->render('front/single_prestation', $variables);
     }
@@ -385,13 +403,15 @@ class IndexController extends AppController
                 Les principes théoriques et les protocoles d’utilisation vous seront enseignés, afin de vous rendre autonome pour une pratique de base. Vous pourrez par la suite vous perfectionner en participant à différents stages thématiques.
         ';
         $image = '/radiesthesie.webp';
+        $alt = "Pendule suspendu au dessus d'une boussole";
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
             'description' => $description,
             'image' => $image,
             'page_title' => $title,
-            'meta' => $meta
+            'meta' => $meta,
+            'alt' => $alt
         ];
         $this->render('front/single_prestation', $variables);
     }
@@ -413,13 +433,15 @@ class IndexController extends AppController
                 Le premier niveau de formation apprend à réaliser des soins sur soi ou sur les autres, à recharger et à purifier les minéraux. Le deuxième niveau permet, grâce à la réalisation de mandalas, de créer des champs d’énergie cohérents visant à améliorer l’énergie de lieux ou de situations.
         ';
         $image = '/lithotherapie.webp';
+        $alt = "Plusieurs type de pierres de toutes les couleurs sur une table";
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
             'description' => $description,
             'image' => $image,
             'page_title' => $title,
-            'meta' => $meta
+            'meta' => $meta,
+            'alt' => $alt
         ];
         $this->render('front/single_prestation', $variables);
     }
@@ -439,13 +461,15 @@ class IndexController extends AppController
                 Accédez à une nouvelle dimension de vous-mêmes !
         ';
         $image = '/perception_energetique.webp';
+        $alt = "femme assise par terre en train de méditer de face";
         $variables = [
             'presta_title' => $title,
             'tarif' => $tarif,
             'description' => $description,
             'image' => $image,
             'page_title' => $title,
-            'meta' => $meta
+            'meta' => $meta,
+            'alt' => $alt
         ];
         $this->render('front/single_prestation', $variables);
     }

@@ -18,7 +18,7 @@
                                 <br>
                                 <p id="text-prestations" class="mb-0"><b><?= $tarif ?></b></p>
                                 <div class="img-container d-flex justify-content-center">
-                                    <img src="<?= URL ?>assets/img/prestations/<?= $image ?>" class="img-fluid" alt="">
+                                    <img src="<?= URL ?>assets/img/prestations/<?= $image ?>" class="img-fluid" alt="<?= $alt ?>">
                                 </div>
                                 <p id="text-prestations"><?= $description ?></p>
                             </div><!-- /.blog-details__main -->

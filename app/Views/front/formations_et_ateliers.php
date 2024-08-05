@@ -24,7 +24,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="history-one__image wow fadeInLeft text-center" data-wow-duration="1500ms">
-                        <img src="<?= URL ?>assets/img/formations_et_ateliers/formations_et_ateliers1.webp" alt="">
+                        <img src="<?= URL ?>assets/img/formations_et_ateliers/formations_et_ateliers1.webp" alt="Femme allongée sur le dos, une autre femme se trouve devant elle en posant son doigt sur son torse">
                     </div><!-- /.history-one__image -->
                 </div><!-- /.col-lg-6 -->
                 <div class="col-lg-6 d-flex">
@@ -38,7 +38,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="history-one__image wow fadeInRight" data-wow-duration="1500ms">
-                        <img src="<?= URL ?>assets/img/formations_et_ateliers/formations_et_ateliers2.webp" alt="">
+                        <img src="<?= URL ?>assets/img/formations_et_ateliers/formations_et_ateliers2.webp" alt="Personne en train de méditer">
                     </div><!-- /.history-one__image -->
                 </div><!-- /.col-lg-6 -->
                 <div class="col-lg-6 d-flex">
@@ -52,7 +52,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="history-one__image wow fadeInLeft text-center" data-wow-duration="1500ms">
-                        <img src="<?= URL ?>assets/img/formations_et_ateliers/formations_et_ateliers3.webp" alt="">
+                        <img src="<?= URL ?>assets/img/formations_et_ateliers/formations_et_ateliers3.webp" alt="Personne en train de méditer une main sur le torse avec un homme se tenant à sa doite">
                     </div><!-- /.history-one__image -->
                 </div><!-- /.col-lg-6 -->
                 <div class="col-lg-6 d-flex">
@@ -76,7 +76,7 @@
                 <div class="col-lg-5 wow fadeInLeft m-auto" data-wow-duration="1500ms">
                     <div class="event-two__image">
                         <div class="event-two__image-inner">
-                        <img src="<?= URL ?>assets/img/formations_et_ateliers/formations_et_ateliers4.webp" alt="">
+                        <img src="<?= URL ?>assets/img/formations_et_ateliers/formations_et_ateliers4.webp" alt="Femme assises au milieu de plusieurs types de pierres">
                         </div><!-- /.event-two__image-inner -->
                     </div><!-- /.event-two__image -->
                 </div><!-- /.col-lg-5 -->
@@ -124,7 +124,7 @@
                 <div class="col-lg-5 wow fadeInLeft m-auto" data-wow-duration="1500ms">
                     <div class="event-two__image">
                         <div class="event-two__image-inner">
-                        <img src="<?= URL ?>assets/img/formations_et_ateliers/formations_et_ateliers7.webp" alt="">
+                        <img src="<?= URL ?>assets/img/formations_et_ateliers/formations_et_ateliers7.webp" alt="Pendule suspendu au dessus de la paume d'une mein">
                         </div><!-- /.event-two__image-inner -->
                     </div><!-- /.event-two__image -->
                 </div><!-- /.col-lg-5 -->

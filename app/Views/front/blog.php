@@ -1,4 +1,3 @@
-<?php $title = 'Retrouvez nos actualités dans notre blog'?>
 <section class="page-header" style="background-image: url(<?= URL ?>assets/img/breadcrumb.webp);">
             <div class="container">
                 <h2>Notre Blog</h2>

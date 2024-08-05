@@ -37,7 +37,7 @@
                 <div class="col-lg-5 wow fadeInLeft m-auto" data-wow-duration="1500ms">
                     <div class="event-two__image">
                         <div class="event-two__image-inner">
-                        <img src="<?= URL ?>assets/img/developpement_personnel/dev_perso1.webp" alt="">
+                        <img src="<?= URL ?>assets/img/developpement_personnel/dev_perso1.webp" alt="Personne en trainde peindre une toile, il est entouré de lumieres, couleurs etc qui representent son imagination">
                         </div><!-- /.event-two__image-inner -->
                     </div><!-- /.event-two__image -->
                 </div><!-- /.col-lg-5 -->
@@ -57,7 +57,7 @@
                 <div class="col-lg-5 wow fadeInLeft m-auto" data-wow-duration="1500ms">
                     <div class="event-two__image">
                         <div class="event-two__image-inner">
-                        <img src="<?= URL ?>assets/img/developpement_personnel/dev_perso2.webp" alt="">
+                        <img src="<?= URL ?>assets/img/developpement_personnel/dev_perso2.webp" alt="Chevaliers assis a une table entourés de cheveaux et d'oiseaux">
                         </div><!-- /.event-two__image-inner -->
                     </div><!-- /.event-two__image -->
                 </div><!-- /.col-lg-5 -->
@@ -101,7 +101,7 @@
                 <div class="col-lg-5 wow fadeInLeft m-auto" data-wow-duration="1500ms">
                     <div class="event-two__image">
                         <div class="event-two__image-inner">
-                        <img src="<?= URL ?>assets/img/developpement_personnel/dev_perso3.webp" alt="">
+                        <img src="<?= URL ?>assets/img/developpement_personnel/dev_perso3.webp" alt="Groupe de pèlerins marchant sur le toit d'un labyrinthe vers une lumiere jaune">
                         </div><!-- /.event-two__image-inner -->
                     </div><!-- /.event-two__image -->
                 </div><!-- /.col-lg-5 -->
@@ -121,7 +121,7 @@
                 <div class="col-lg-5 wow fadeInLeft m-auto" data-wow-duration="1500ms">
                     <div class="event-two__image">
                         <div class="event-two__image-inner">
-                        <img src="<?= URL ?>assets/img/developpement_personnel/dev_perso4.webp" alt="">
+                        <img src="<?= URL ?>assets/img/developpement_personnel/dev_perso4.webp" alt="Plusieurs tables avec des personnes assises autour dans un monde de couleurs, papillons etc...">
                         </div><!-- /.event-two__image-inner -->
                     </div><!-- /.event-two__image -->
                 </div><!-- /.col-lg-5 -->

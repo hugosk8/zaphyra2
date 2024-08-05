@@ -3,22 +3,20 @@
         <h2>Les Chakras</h2>
     </div><!-- /.container -->
 </section><!-- /.page-header -->
-<section class="blog-one blog-details-page">
+
+<section class="blog-one blog-details-page prevent-footer">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 filter-layout">
                 <div class="blog-details__main filter-item chakra1">
                     <div class="blog-details__image">
-                        <img src="<?= URL ?>assets/img/ressources/chakra1.webp" class="img-fluid" alt="Chakra 1">
+                        <img src="<?= URL ?>assets/img/ressources/chakra1.webp" class="img-fluid" alt="Dessin rouge représentant le 1er chakra">
                     </div><!-- /.blog-details__image -->
                     <div class="block-title event-two__title">
                         <p id="titlesChakras">1er Chakra : Mulrhara<br></p>
-
                     </div>
                     <br>
-                    <p><b>Chakra</b> : c'est le chakra-racine.<br>
-                        Il rejoint le sphincter et son point d'appui est le coccyx
-                    </p>
+                    <p><b>Chakra</b> : c'est le chakra-racine.<br>Il rejoint le sphincter et son point d'appui est le coccyx</p>
                     <br>
                     <p><b>Élément</b> : la Terre.</p>
                     <br>
@@ -26,16 +24,15 @@
                     <br>
                     <p><b>Organes</b> : ce chakra gouverne la constitution physique en général et plus
                         particulièrement :<br><br>
-                    <ul>
-                        <li>la colonne vertébrale</li>
-                        <li>les os</li>
-                        <li>les dents</li>
-                        <li>l'anus, le rectum</li>
-                        <li>le gros intestin</li>
-                        <li>la structure cellulaire</li>
-                        <li>la circulation sanguine dans le bas du corps</li>
-
-                    </ul>
+                        <ul>
+                            <li>la colonne vertébrale</li>
+                            <li>les os</li>
+                            <li>les dents</li>
+                            <li>l'anus, le rectum</li>
+                            <li>le gros intestin</li>
+                            <li>la structure cellulaire</li>
+                            <li>la circulation sanguine dans le bas du corps</li>
+                        </ul>
                     </p>
                     <br>
                     <p><b>Glandes</b> : surrénales (hormones : adrénaline et noradrénaline)</p><br>
@@ -55,7 +52,7 @@
 
                 <div class="blog-details__main filter-item chakra2">
                     <div class="blog-details__image">
-                        <img src="<?= URL ?>assets/img/ressources/chakra2.webp" class="img-fluid" alt="Chakra 2">
+                        <img src="<?= URL ?>assets/img/ressources/chakra2.webp" class="img-fluid" alt="Dessin orange représentant le 2eme chakra">
                     </div><!-- /.blog-details__image -->
                     <div class="block-title event-two__title">
                         <p id="titlesChakras">2eme Chakra : Shadistana<br></p>
@@ -99,7 +96,7 @@
 
                 <div class="blog-details__main filter-item chakra3">
                     <div class="blog-details__image">
-                        <img src="<?= URL ?>assets/img/ressources/chakra3.webp" class="img-fluid" alt="Chakra 3">
+                        <img src="<?= URL ?>assets/img/ressources/chakra3.webp" class="img-fluid" alt="Dessin jaune représentant le 3eme chakra">
                     </div><!-- /.blog-details__image -->
                     <div class="block-title event-two__title">
                         <p id="titlesChakras">3eme Chakra : Manipura<br></p>
@@ -143,7 +140,7 @@
 
                 <div class="blog-details__main filter-item chakra4">
                     <div class="blog-details__image">
-                        <img src="<?= URL ?>assets/img/ressources/chakra4.webp" class="img-fluid" alt="Chakra 4">
+                        <img src="<?= URL ?>assets/img/ressources/chakra4.webp" class="img-fluid" alt="Dessin vert représentant le 4eme chakra">
                     </div><!-- /.blog-details__image -->
                     <div class="block-title event-two__title">
                         <p id="titlesChakras">4eme Chakra : Anahata<br></p>
@@ -191,7 +188,7 @@
 
                 <div class="blog-details__main filter-item chakra5">
                     <div class="blog-details__image">
-                        <img src="<?= URL ?>assets/img/ressources/chakra5.webp" class="img-fluid" alt="Chakra 5">
+                        <img src="<?= URL ?>assets/img/ressources/chakra5.webp" class="img-fluid" alt="Dessin bleu représentant le 5eme chakra">
                     </div><!-- /.blog-details__image -->
                     <div class="block-title event-two__title">
                         <p id="titlesChakras">5eme Chakra : Vishudha<br></p>
@@ -241,7 +238,7 @@
 
                 <div class="blog-details__main filter-item chakra6">
                     <div class="blog-details__image">
-                        <img src="<?= URL ?>assets/img/ressources/chakra6.webp" class="img-fluid" alt="Chakra 6">
+                        <img src="<?= URL ?>assets/img/ressources/chakra6.webp" class="img-fluid" alt="Dessin violet foncé représentant le 6eme chakra">
                     </div><!-- /.blog-details__image -->
                     <div class="block-title event-two__title">
                         <p id="titlesChakras">6eme Chakra : Ajna<br></p>
@@ -287,7 +284,7 @@
 
                 <div class="blog-details__main filter-item chakra7">
                     <div class="blog-details__image">
-                        <img src="<?= URL ?>assets/img/ressources/chakra7.webp" class="img-fluid" alt="Chakra 7">
+                        <img src="<?= URL ?>assets/img/ressources/chakra7.webp" class="img-fluid" alt="Dessin violet clair représentant le 7eme chakra">
                     </div><!-- /.blog-details__image -->
                     <div class="block-title event-two__title">
                         <p id="titlesChakras">7eme Chakra : Sahasrara<br></p>

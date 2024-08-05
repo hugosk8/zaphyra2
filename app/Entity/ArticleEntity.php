@@ -10,6 +10,4 @@ class ArticleEntity extends Entity
     {
         return 'index.php?p=formation.category&id=' . $this->id;
     }
-
-  
 }

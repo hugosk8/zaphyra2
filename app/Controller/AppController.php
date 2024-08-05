@@ -11,6 +11,7 @@ class AppController extends Controller
 {
 
     protected $template = 'default';
+    protected $contact_template;
     protected $langue = 'fr';
     protected $recaptcha = "";
     protected $event;
@@ -21,6 +22,7 @@ class AppController extends Controller
     {
         $this->viewPath = ROOT . '/app/Views/';
         $this->template = 'front/template';
+        $this->contact_template = 'front/contact_template';
         $this->recaptcha = URL;
     }
 

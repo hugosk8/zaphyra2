@@ -1,7 +1,3 @@
-<!-- <?php 
-    $title = "Réussir votre développement personnel avec un coach de vie";
-    $meta = "Transformez votre existence  avec l'aide d'un coach de vie. Retrouvez l'énergie, l'équilibre, la réussite professionnelle ou personnelle chez Zaphyra";
-?> -->
 <section class="banner-section banner-section__home-two">
     <div class="banner-carousel thm__owl-carousel owl-theme owl-carousel" data-options='{"loop": true, "items": 1, "margin": 0, "dots": false, "nav": true, "animateOut": "fadeOut", "animateIn": "fadeIn", "active": true, "smartSpeed": 1000, "autoplay": true, "autoplayTimeout": 6000, "autoplayHoverPause": false}'>
         <!-- Slide Item -->
@@ -28,7 +24,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="history-one__image wow fadeInLeft text-center" data-wow-duration="1500ms">
-                        <img src="<?= URL ?>assets/img/coaching/coaching1.webp" alt="">
+                        <img src="<?= URL ?>assets/img/coaching/coaching1.webp" alt="Deux hommes assis sur des fauteuils en train de discuter">
                     </div><!-- /.history-one__image -->
                 </div><!-- /.col-lg-6 -->
                 <div class="col-lg-6 d-flex">
@@ -46,7 +42,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="history-one__image wow fadeInRight" data-wow-duration="1500ms">
-                        <img src="<?= URL ?>assets/img/coaching/coaching2.webp" alt="">
+                        <img src="<?= URL ?>assets/img/coaching/coaching2.webp" alt="Schema d'une femme ppassant du stress, à la confusion, à la clareté">
                     </div><!-- /.history-one__image -->
                 </div><!-- /.col-lg-6 -->
                 <div class="col-lg-6 d-flex">
@@ -60,7 +56,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="history-one__image wow fadeInLeft text-center" data-wow-duration="1500ms">
-                        <img src="<?= URL ?>assets/img/coaching/coaching3.webp" alt="">
+                        <img src="<?= URL ?>assets/img/coaching/coaching3.webp" alt="Homme paisible de dos sur le sommet d'une montagne">
                     </div><!-- /.history-one__image -->
                 </div><!-- /.col-lg-6 -->
                 <div class="col-lg-6 d-flex">
@@ -74,7 +70,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="history-one__image wow fadeInRight text-center" data-wow-duration="1500ms">
-                        <img src="<?= URL ?>assets/img/coaching/coaching4.webp" alt="">
+                        <img src="<?= URL ?>assets/img/coaching/coaching4.webp" alt="Deux personnes assises face à face en train de travailler sur un projet">
                     </div><!-- /.history-one__image -->
                 </div><!-- /.col-lg-6 -->
                 <div class="col-lg-6 d-flex">
